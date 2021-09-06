@@ -240,7 +240,7 @@
         "type": "sidebar-category",
         "settings": {
           "enable_sidecategory": true,
-          "linkedlist": "categories-menu",
+          "linkedlist": "",
           "linkedlist_title": "Category"
         }
       },
@@ -286,50 +286,43 @@
           "1482228069572": {
             "type": "image",
             "settings": {
-              "title": "Pink",
-              "color": "shopify:\/\/shop_images\/pink.png"
+              "title": "Pink"
             }
           },
           "1477476823589": {
             "type": "image",
             "settings": {
-              "title": "Blue",
-              "color": "shopify:\/\/shop_images\/blue.png"
+              "title": "Blue"
             }
           },
           "1477476872443": {
             "type": "image",
             "settings": {
-              "title": "Orange",
-              "color": "shopify:\/\/shop_images\/orange.png"
+              "title": "Orange"
             }
           },
           "1477476859401": {
             "type": "image",
             "settings": {
-              "title": "Green",
-              "color": "shopify:\/\/shop_images\/green.png"
+              "title": "Green"
             }
           },
           "1477476837114": {
             "type": "image",
             "settings": {
-              "title": "White",
-              "color": "shopify:\/\/shop_images\/white.png"
+              "title": "White"
             }
           },
           "1477476891997": {
             "type": "image",
             "settings": {
-              "title": "Silver",
-              "color": "shopify:\/\/shop_images\/silver.png"
+              "title": "Silver"
             }
           },
           "1477476905451": {
             "type": "image",
             "settings": {
-              "title": "Black",
-              "color": "shopify:\/\/shop_images\/black.png"
+              "title": "Black"
             }
           }
         },
@@ -2743,7 +2736,7 @@
           "1547016912584-2"
         ],
         "settings": {
-          "background_color": "#ffffff",
+          "background_color": "#00963f",
           "title": "Testimonial",
           "title_color": "#222222"
         }
