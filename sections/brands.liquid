@@ -1,0 +1,146 @@
+<div data-section-id="{{ section.id }}"  data-section-type="client section" class="client-section">
+ {% if section.blocks.size > 0 %}    
+  <div class="grid-uniform section-seven">
+    <div class="container">
+      <div class="grid__item">
+        {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title }}</h2>
+        {% endif %}
+        <div id="client-car" class="owl-carousel owl-theme client-section">
+          {% for block in section.blocks %}
+          {% if block.settings.client_img != blank %}
+          <div class="item">
+            <a href="{{ block.settings.client_link }}"> <img src="{{ block.settings.client_img | img_url: "250x250"  }}" alt="{{ block.settings.client_heading }}" /></a>
+          </div>
+          {% else %}          
+          <div class="item"><a href="#">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</a></div>
+           {% endif %}           
+          {% endfor %}
+        </div>
+        <div class="nav-brands"></div>
+      </div>
+    </div>
+  </div>
+  <div class="dt-sc-hr-invisible-large"></div>
+  {% endif %} 
+</div>
+
+{% schema %}
+{
+"name": "Client Logo",
+"class": "index-section",
+"settings": [
+	{
+"type": "text",
+"id": "title",
+"label": "Heading"
+}
+
+],
+"blocks": [
+{
+"type": "Image",
+"name":"client img",
+"settings": [
+{
+"type": "image_picker",
+"id": "client_img",
+"label": "Image",
+"info": "Size: 250x110"
+},
+{
+"type": "text",
+"id": "client_heading",
+"label": "text"
+},
+{
+"type": "url",
+"id": "client_link",
+"label": "Link URL"
+}
+]
+}
+],
+
+"presets": [
+{
+  "name": "Client Logo",
+"category": "Image",
+      "blocks": [
+        {
+          "type": "Image"
+        },
+        {
+          "type": "Image"
+        },
+		{
+          "type": "Image"
+        },
+		{
+          "type": "Image"
+        },
+        {
+          "type": "Image"
+        },
+		{
+          "type": "Image"
+        },{
+          "type": "Image"
+        },
+        {
+          "type": "Image"
+        },
+		{
+          "type": "Image"
+        }
+ 		
+      ]
+}
+]
+}
+{% endschema %}
+
+
+
+
+{% javascript %}
+ $(document).ready(function(){
+     var brand_logos = $("#client-car");
+      brand_logos.owlCarousel({
+        items:8,
+      loop:true,  
+	   autoplay: true,
+	   autoplayTimeout: 3000,
+		 navContainer: ".nav-brands",
+          navText: ['<a class="prev btn"><i class="fas fa-arrow-left"></i></a>','<a class="next btn"><i class="fas fa-arrow-right"></i></a>'],
+          responsive:{
+           0:{
+              items: 1,
+              dots: false, 
+              nav:true
+            },
+            320:{
+              items: 2,
+              dots: false, 
+              nav:true
+            },
+            480:{
+              items: 3,
+              dots: false, 
+              nav:true
+            },
+            768:{
+              items: 4,           
+              dots: true,
+			  nav:false
+            },
+
+            1000:{
+              items: 5,
+              dots: true,
+			  nav:false
+            }
+         }
+  			});
+        });
+{% endjavascript %}

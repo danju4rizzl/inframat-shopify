@@ -1,0 +1,310 @@
+
+
+
+<section data-section-id="{{ section.id }}" data-section-type="video-content-block-1" class="video-content-block-1" style= "{% if section.settings.image_1 != blank %} background-image:url('{{ section.settings.image_1 | img_url: 'master' }}');background-repeat:no-repeat;background-size:cover;background-position:center;float:left;width:100%;position:relative; {% else %} background-color:{{ section.settings.bg_clr }}{% endif %}">     
+
+  <div class="grid-uniform"  >    
+    
+      <div class="video-banner-type-1-block block7" style="float:left;width:100%;">      
+        <div class="video-banner-type-1-content wow fadeInUp animated">  
+            
+        {% if section.settings.video_url != blank %}
+        <div class="block-content"> 
+            <div class="p-video">
+            {% if section.settings.video_image != blank %}
+            <img src="{{ section.settings.video_image | img_url: '700X' }}" alt="{{ section.settings.title_1 }}" />
+            <div class="overlay"></div>
+            {% else %}
+            <img src="//via.placeholder.com/500x400">
+            {% endif%}
+            {% if section.settings.video_url != blank %}
+            
+              <a href="{{ section.settings.video_url | escape }}" class="jas-popup-url" data-effect="mfp-move-from-top">
+                 <img src="{{ section.settings.play_image | img_url: '700X' }}" alt="{{ section.settings.title_1 }}" />
+                </a>     
+            
+              {% endif%}
+              </div>
+            
+            </div> 
+        {% endif%}
+		<div class="container">   
+          {% if section.settings.title_1 != blank %}
+          <h2 style="color:{{ section.settings.title_color }}">{{ section.settings.title_1 }}</h2>
+          {% endif %}      
+
+          {% if section.settings.text_1 != blank %}
+          <div class="">
+            <p style="color:{{ section.settings.text_color }}">{{ section.settings.text_1 }}</p>
+          </div>
+          {% endif %}
+          {% if section.settings.button_1 != blank %}
+          <a class="btn" href="{{ section.settings.link_1 }}">{{ section.settings.button_1 }}</a>    
+          {% endif %}         
+        </div>    
+      <div id="debug" style="display: none">
+        <h2 style="color: #FFFFFF; text-align: left">Events console: </h2>
+        <div id="eventListener"></div>
+      </div>
+       
+    </div>   
+   </div>
+    <style>
+      .video-banner-type-1-content a.btn { border:none;color:{{ section.settings.button_txt_color }};background-color:{{ section.settings.button_bg_color }}; }
+      .video-content-block-1 .block-content .p-video img{ border-color:{{section.settings.title_color}};}
+      .video-content-block-1 .block-content .p-video a i{color:{{ section.settings.title_color }}; }
+      .video-banner-type-1-content a.btn:hover { color:{{ section.settings.hover_button_txt_color }};background-color:{{ section.settings.hover_button_bg_color }}; }
+      
+      .video-content-block-1 .intro-video-text a:hover{background:{{section.settings.background_hover_color}}!important;color:{{section.settings.icon_hover_color}}!important;}
+      
+      .video-content-block-1 .intro-video-text a {color:{{section.settings.icon_color}};background:{{section.settings.background_color}};}
+        {% if section.settings.show_overlay_bg != blank %}
+      .YTPOverlay.raster::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+        background: {{section.settings.overlay_bg_clr}};
+    top: 0;
+    z-index: 1;
+    content: "";
+    opacity: 0.6;
+}
+     {% endif%}  
+      
+      @keyframes shadow
+{
+  0% {
+    box-shadow: 0 0 0 0px {{  section.settings.title_color }};
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+      
+      </style>
+  </div>
+ {{ 'jquery.mb.YTPlayer.min.css' | asset_url | stylesheet_tag }}
+{{ 'jquery.mb.YTPlayer.js' | asset_url | script_tag }} 
+    <div class="dt-sc-hr-invisible-large"></div>
+</section>
+
+<script>
+
+    var myPlayer;
+    jQuery(function () {
+      myPlayer = jQuery("#bgndVideo").YTPlayer({useOnMobile:true, mobileFallbackImage:"assets/mask-4.png"});
+
+      /* DEBUG ******************************************************************************************/
+
+      var YTPConsole = jQuery("#eventListener");
+      // EVENTS: YTPReady YTPStart YTPEnd YTPPlay YTPLoop YTPPause YTPBuffering YTPMuted YTPUnmuted YTPChangeVideo
+      myPlayer.on("YTPReady YTPStart YTPEnd YTPPlay YTPLoop YTPPause YTPBuffering YTPMuted YTPUnmuted YTPChangeVideo", function (e) {
+        YTPConsole.append("event: " + e.type + " (" + jQuery("#bgndVideo").YTPGetPlayer().getPlayerState() + ") > time: " + e.time);
+        YTPConsole.append("<br>");
+      });
+
+      // EVENT: YTPChanged
+      myPlayer.on("YTPChanged", function (e) {
+        YTPConsole.html("");
+      });
+
+      myPlayer.on("YTPChangeVideo", function(e){
+        console.debug("YTPChangeVideo", e);
+
+      });
+
+      // EVENT: YTPData
+      myPlayer.on("YTPData", function (e) {
+        $(".dida").html(e.prop.title + "<br>@" + e.prop.channelTitle);
+        $("#videoData").show();
+
+        YTPConsole.append("******************************");
+        YTPConsole.append("<br>");
+        YTPConsole.append(e.type);
+        YTPConsole.append("<br>");
+        YTPConsole.append(e.prop.title);
+        YTPConsole.append("<br>");
+        YTPConsole.append(e.prop.description.replace(/\n/g, "<br/>"));
+        YTPConsole.append("<br>");
+        YTPConsole.append("******************************");
+        YTPConsole.append("<br>");
+      });
+
+      // EVENT: YTPTime
+      myPlayer.on("YTPTime", function (e) {
+        var currentTime = e.time;
+        var traceLog = currentTime / 5 == Math.floor(currentTime / 5);
+
+        if (traceLog && YTPConsole.is(":visible")) {
+          YTPConsole.append(myPlayer.attr("id")+ " > " + e.type + " > actual time is: " + currentTime);
+          YTPConsole.append("<br>");
+
+          if(myPlayer.YTPGetFilters())
+            console.debug("filters: ", myPlayer.YTPGetFilters());
+        }
+      });
+
+      /* END DEBUG ******************************************************************************************/
+
+     
+    });
+
+    /**
+     *
+     * @param val
+     * @returns {*|number}
+     */
+    function checkForVal(val){
+      return val || 0;
+    }
+  </script>
+{% schema %}
+{
+"name": "Video Banner",
+"class": "index-section",
+"settings": [
+
+{
+"type": "checkbox",
+"id": "show_overlay_bg",
+"label":"Show Overlay Bg",
+"default": false
+},
+{
+"type": "image_picker",
+"id": "image_1",
+"label": "Bg image",
+"info": "Size: 1920X700"
+},
+{
+"type": "color",
+"id": "bg_clr",
+"label":"Bg Color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "overlay_bg_clr",
+"label":"Overlay Bg Color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "icon__1_class",
+"label": "Fontawesome Icon",
+"default": "fa fa-play-circle-o"
+},
+{
+"type": "color",
+"id": "icon_color",
+"label":"Icon color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "background_color",
+"label":"Bg color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "icon_hover_color",
+"label":"Icon Hover color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "background_hover_color",
+"label":"Bg Hover color",
+"default": "#000"
+},
+{
+"type": "image_picker",
+"id": "video_image",
+"label": "Video image",
+"info": "Size: 656x390"
+},
+{
+"type": "text",
+"id": "video_url",
+"label": "Video ID",
+"default": "liJVSwOiiwg"
+},
+{
+"type": "image_picker",
+"id": "play_image",
+"label": "Play image",
+"info": "Size: 92x92"
+},
+{
+"type": "text",
+"id": "video_padding",
+"label": "Video Height",
+"default": "5"
+},
+{
+"type": "text",
+"id": "title_1",
+"label": "Heading"
+},
+{
+"type": "color",
+"id": "title_color",
+"label":"Title color",
+"default": "#000"
+},
+{
+"type": "textarea",
+"id": "text_1",
+"label": "Description"
+},
+{
+"type": "color",
+"id": "text_color",
+"label":"Text color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "button_1",
+"label": "Button text"
+},
+{
+"type": "color",
+"id": "button_bg_color",
+"label":"Background color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "button_txt_color",
+"label":"Text color",
+"default": "#fff"
+},
+{
+"type": "color",
+"id": "hover_button_bg_color",
+"label":"Background hover color",
+"default": "#000"
+},
+{
+"type": "color",
+"id": "hover_button_txt_color",
+"label":"Text hover color",
+"default": "#fff"
+},
+{
+"type": "url",
+"id": "link_1",
+"label": "Link URL"
+}
+],
+"presets": [
+{
+"name": "Video Banner",
+"category": "Video",
+"blocks": []
+}
+]
+}
+{% endschema %}

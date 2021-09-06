@@ -1,0 +1,411 @@
+
+
+<div data-section-id="{{ section.id }}"  data-section-type="triangle-icon-block-a" class="triangle-icon-block-a" style="{% if section.settings.image_1 != blank %} background-image:url('{{ section.settings.image_1 | img_url: 'master' }}');background-repeat:no-repeat;background-size:auto;background-position:bottom;background-color:{{section.settings.tri_bg_clr}}{% else %} background-color:{{section.settings.tri_bg_clr}}{% endif %}">
+  <div class="container">
+
+    <div class="border-title text-center wow fadeInDown animated">          
+      {% if section.settings.heading != blank  %}  
+      <h2 class="" style="color:{{ section.settings.heading_clr }}">{{ section.settings.heading }}</h2>
+      {% endif %}
+      {% if section.settings.sub_heading != blank  %}  
+      <p class="small-desc" style="color:{{ section.settings.sub_heading_clr }}">{{ section.settings.sub_heading }}</p>
+      {% endif %}
+    </div>
+    <div class="grid-uniform">
+      <div class=" triangle-icon-wrapper">
+        <div class="grid__item wide--one-third post-large--one-third large--one-third medium--one-whole small-grid__item triangle-icon-left">
+          
+          <div class="icon_wrapper icon-left wow fadeInUp animated">
+
+{% if section.settings.icon_1_cls_img != blank  %} 
+            <div class="icon">
+              <img src="{{ section.settings.icon_1_cls_img | img_url: 'grande' }}" alt="" title=""  style=""/> 
+
+            </div>
+            {% else %}
+            <div class="icon">
+<img src="//via.placeholder.com/60x60">
+            </div>
+            
+{% endif %} 
+
+
+
+            {% if section.settings.title_1 != blank  %}  
+            <div class="icon-content">
+             
+              <h4 style="color:{{ section.settings.title_clr_1 }};">{{ section.settings.title_1 }}</h4>
+              {% if section.settings.desc_1 != blank  %}  
+              <p class="desc" style="color:{{ section.settings.desc_clr_1 }};">{{ section.settings.desc_1 }}</p>
+              {% endif %} 
+            </div>
+            {% endif %} 
+          </div>
+          
+           
+          <div class="icon_wrapper icon-left wow fadeInUp animated">
+            {% if section.settings.icon_2_cls_img != blank  %}
+            <div class="icon">
+              <img src="{{ section.settings.icon_2_cls_img | img_url: 'grande' }}" alt="" title=""  style=""/> 
+            </div>
+            {% else %}
+            <div class="icon">
+<img src="//via.placeholder.com/60x60">
+            </div>
+            {% endif %} 
+            
+            
+            {% if section.settings.title_2 != blank  %}  
+            <div class="icon-content">
+              <h4 style="color:{{ section.settings.title_clr_2 }};">{{ section.settings.title_2 }}</h4>
+              {% if section.settings.desc_2 != blank  %}  
+              <p class="desc" style="color:{{ section.settings.desc_clr_2 }};">{{ section.settings.desc_2 }}</p>
+              {% endif %} 
+            </div>
+            {% endif %} 
+          </div>
+          
+
+
+        </div>
+        
+        <div class="grid__item wide--one-third post-large--one-third large--one-third medium--one-whole small-grid__item">
+          <div class="center-block wow bounceIn animated" style="">
+            {% if section.settings.image != blank  %}  
+            <img src="{{ section.settings.image | img_url: 'grande' }}" alt="{{ section.settings.image_heading }}" />
+            {% else %}
+<img src="//via.placeholder.com/500x550">
+            
+            
+            
+            {% endif %}
+          </div>
+        </div>
+         
+        <div class="grid__item wide--one-third post-large--one-third large--one-third medium--one-whole small-grid__item triangle-icon-right">
+          
+          <div class="icon_wrapper icon-right wow fadeInUp animated">
+            {% if section.settings.icon_3_cls_img != blank  %} 
+            <div class="icon">
+              <img src="{{ section.settings.icon_3_cls_img | img_url: 'grande' }}" alt="" title=""  style=""/> 
+            </div>
+            {% else %}
+            <div class="icon">
+<img src="//via.placeholder.com/60x60">
+            
+            </div>
+            
+            {% endif %}
+            {% if section.settings.title_3 != blank  %}  
+            <div class="icon-content">
+              <h4 style="color:{{ section.settings.title_clr_3 }};">{{ section.settings.title_3 }}</h4>
+              {% if section.settings.desc_3 != blank  %}  
+              <p class="desc" style="color:{{ section.settings.desc_clr_3 }};">{{ section.settings.desc_3 }}</p>
+              {% endif %} 
+            </div>
+            {% endif %} 
+          </div>
+         
+           
+          <div class="icon_wrapper icon-right wow fadeInUp animated">
+            {% if section.settings.icon_4_cls_img != blank  %}
+            <div class="icon">
+              <img src="{{ section.settings.icon_4_cls_img | img_url: 'grande' }}" alt="" title=""  style=""/> 
+            </div>
+            {% else %}
+            <div class="icon">
+<img src="//via.placeholder.com/60x60">
+            
+            </div>
+             {% endif %}
+            {% if section.settings.title_4 != blank  %}  
+            <div class="icon-content">
+              <h4 style="color:{{ section.settings.title_clr_4 }};">{{ section.settings.title_4 }}</h4>
+              {% if section.settings.desc_4 != blank  %}  
+              <p class="desc" style="color:{{ section.settings.desc_clr_4 }};">{{ section.settings.desc_4 }}</p>
+              {% endif %} 
+            </div>
+            {% endif %} 
+          </div>
+         
+          {% if section.settings.icon_6_cls_img != blank  %} 
+          <div class="icon_wrapper icon-right wow fadeInUp animated">
+            <div class="icon">
+              <img src="{{ section.settings.icon_6_cls_img | img_url: 'grande' }}" alt="" title=""  style=""/> 
+            </div>
+            {% if section.settings.title_6 != blank  %}  
+            <div class="icon-content">
+              <h4 style="color:{{ section.settings.title_clr_6 }};">{{ section.settings.title_6 }}</h4>
+              {% if section.settings.desc_6 != blank  %}  
+              <p class="desc" style="color:{{ section.settings.desc_clr_6 }};">{{ section.settings.desc_6 }}</p>
+              {% endif %} 
+            </div>
+            {% endif %} 
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div> 
+
+
+
+
+
+<style>
+  .triangle-icon-block-a .icon_wrapper .icon img{ border-color:{{ section.settings.border_clr}};  }
+  .triangle-icon-block-a .icon_wrapper .icon:hover  img{ border-color:{{ section.settings.border_hvr}}; transition:all 0.5s linear;}
+	@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px {{  section.settings.border_clr  }};
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+  }
+}
+
+
+
+  .triangle-icon-block-a .icon i{color:{{section.settings.icon_clr}};}
+
+
+
+
+  .triangle-icon-block-a .icon_wrapper:hover .icon i{color:{{section.settings.icon_hover_txt_clr}};}
+
+  .triangle-icon-block-a .icon_wrapper:hover h4 {color:{{section.settings.icon_hover_txt_clr}} !important;}
+</style>
+
+
+
+
+
+
+
+
+{% schema %}
+{
+"name": "Specification Block",
+"class": "index-section",  
+"settings": [  
+{
+"type": "color",
+"id": "tri_bg_clr",
+"label": "Bg Color",
+"default": "#000"
+},
+{
+"type": "image_picker",
+"id": "image_1",
+"label": "Bg Img" ,
+"info": "Size: 1920X700"
+
+},
+{
+"type": "text",
+"id": "heading",
+"label": "Heading"
+},
+{
+"type": "color",
+"id": "heading_clr",
+"label": "Heading color",
+"default": "#000"
+},
+{
+"type": "text",
+"id": "sub_heading",
+"label": "Sub Heading"
+},
+{
+"type": "color",
+"id": "sub_heading_clr",
+"label": "Sub Heading color",
+"default": "#000"
+},
+{
+"type": "header",
+"content": "General Color"
+},
+{
+"type": "color",
+"id": "icon_hover_txt_clr",
+"label": "Hover Text Color",
+"default": "#000"   
+},
+{
+"type": "header",
+"content": "Icon One"
+},
+{
+"type": "image_picker",
+"id": "icon_1_cls_img",
+"label": "Icon Img"          
+},
+{
+"type": "text",
+"id": "title_1",
+"label": "Heading"          
+},
+
+{
+"type": "color",
+"id": "title_clr_1",
+"label": "Heading",
+"default": "#000"   
+},
+{
+"type": "textarea",
+"id": "desc_1",
+"label": "Description"          
+}, 
+{
+"type": "color",
+"id": "desc_clr_1",
+"label": "Description",
+"default": "#000"   
+},
+{
+"type": "header",
+"content": "Icon Two"
+},
+{
+"type": "image_picker",
+"id": "icon_2_cls_img",
+"label": "Icon Img"          
+},
+{
+"type": "text",
+"id": "title_2",
+"label": "Heading"          
+},
+{
+"type": "color",
+"id": "title_clr_2",
+"label": "Heading",
+"default": "#000"   
+},
+{
+"type": "textarea",
+"id": "desc_2",
+"label": "Description"          
+}, 
+{
+"type": "color",
+"id": "desc_clr_2",
+"label": "Description",
+"default": "#000"   
+},
+
+{
+"type": "header",
+"content": "Icon Three"
+},
+{
+"type": "image_picker",
+"id": "icon_3_cls_img",
+"label": "Icon Img"          
+},
+{
+"type": "text",
+"id": "title_3",
+"label": "Heading"          
+},
+{
+"type": "color",
+"id": "title_clr_3",
+"label": "Heading",
+"default": "#000"   
+},
+{
+"type": "textarea",
+"id": "desc_3",
+"label": "Description"          
+}, 
+{
+"type": "color",
+"id": "desc_clr_3",
+"label": "Description",
+"default": "#000"   
+},
+
+{
+"type": "header",
+"content": "Icon Four"
+},
+{
+"type": "image_picker",
+"id": "icon_4_cls_img",
+"label": "Image"         
+},
+{
+"type": "text",
+"id": "title_4",
+"label": "Heading"          
+},
+{
+"type": "color",
+"id": "title_clr_4",
+"label": "Heading",
+"default": "#000"   
+},
+{
+"type": "textarea",
+"id": "desc_4",
+"label": "Description"          
+}, 
+{
+"type": "color",
+"id": "desc_clr_4",
+"label": "Description",
+"default": "#000"   
+},
+{
+"type": "color",
+"id": "border_clr",
+"label": "Border-color",
+"default": "#000"   
+},
+{
+"type": "color",
+"id": "border_hvr",
+"label": "border_hover",
+"default": "#000"   
+},
+{
+"type": "header",
+"content": "Middle Block Section"
+},
+
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image",
+"info": "Size: 600x750"
+},
+{
+"type": "text",
+"id": "image_heading",
+"label": "Image Heading"          
+}
+],
+"presets": [
+{
+"name": "Specification Block",
+"category": "Icon Section"
+}
+]
+}
+{% endschema %}
+
+
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

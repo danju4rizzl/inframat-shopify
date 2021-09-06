@@ -1,0 +1,155 @@
+<div data-section-id="{{ section.id }}"  data-section-type="home-product-grid-type-5" class="home-product-grid-type-5">
+  <div class="container">
+  {%- assign collection = collections[section.settings.collection] -%}
+  {%- assign limit = section.settings.grid | times: section.settings.rows -%}  
+  {%- assign tp = section.settings.total_products  -%}
+  <div class="full_width_tab load-wrapper">       
+    {% if section.settings.title != blank or section.settings.small_title  %}
+    <div class="section-header section-header--small wow fadeInDown animated ">
+      <div class="border-title">
+        {% endif %}            
+        {% if section.settings.title != blank %}
+        <h2 class="section-header__title" style="color:{{section.settings.title_clr }};">    
+          {{ section.settings.title }}
+        </h2>
+        {% endif %}  
+        {% if section.settings.small_title != blank %}<div class="small-desc"> <p style="color:{{section.settings.small_title_clr }};">{{ section.settings.small_title }}</p></div>{% endif %}  
+        {% if section.settings.title != blank or section.settings.small_title  %}
+      </div>
+    </div>    
+    <div class="dt-sc-hr-invisible-small"></div>
+    {% endif %}      
+    {% case section.settings.grid %}
+    {% when '2' %}
+    {%- assign grid_item_width = 'wide--one-half post-large--one-half large--one-half medium--one-half small-grid__item' -%}
+    {% when '3' %}
+    {%- assign grid_item_width = 'wide--one-third post-large--one-third large--one-third medium--one-half small-grid__item' -%}
+    {% when '4' %}
+    {%- assign grid_item_width = 'wide--one-quarter post-large--one-quarter large--one-quarter medium--one-half small-grid__item' -%}
+    {% when '5' %}
+    {%- assign grid_item_width = 'wide--one-fifth post-large--one-fifth large--one-third medium--one-half small-grid__item' -%}            
+    {% endcase %}
+
+    <div class="grid-uniform">      
+      <div class="grid__item {{grid_mid_width }}">              
+        <ul class="type4__items">
+          {% for product in collection.products limit:limit  %}
+          {% include 'product-grid-item', grid_item_width:grid_item_width %} 
+          {% else %}
+           {% for i in (1..4) %}
+            <div class="grid__item {{ grid_item_width }}">  
+              <div class="products   wow fadeIn   animated" style="visibility: visible;">
+                <div class="product-container">
+                  <a href="#" class="grid-link"> 
+                    <div class="reveal"> 
+                      {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                      {{ 'product-' | append: current | placeholder_svg_tag: 'placeholder-svg' }} 
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          {% endfor %}
+        </ul>      
+      </div>      
+    </div>
+      <div class="dt-sc-hr-invisible-small"></div>
+  </div>
+  </div>
+</div>  
+
+{% schema %}
+{
+"name": "Home Product Grid",
+"class": "index-section",
+"settings": [  
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "New arrivals"
+},	
+{
+"type": "color",
+"id": "title_clr",
+"label": "Heading Color",
+"default": "#000"
+},	
+{
+"type": "text",
+"id": "small_title",
+"label": "Small Heading"      
+},	
+{
+"type": "color",
+"id": "small_title_clr",
+"label": "Small Heading Color",
+"default": "#000"      
+},	
+{
+"id": "collection",
+"type": "collection",
+"label": "Collection"
+},
+
+{
+"type": "select",
+"id": "grid",
+"label": "Products per row",
+"default": "3",
+"options": [
+{
+"value": "2",
+"label": "2"
+},
+{
+"value": "3",
+"label": "3"
+},
+{
+"value": "4",
+"label": "4"
+}
+
+]
+},
+{
+"type": "select",
+"id": "rows",
+"label": "Rows per page (grid only)",
+"default": "2",
+"options": [
+{
+"value": "1",
+"label": "1"
+},
+{
+"value": "2",
+"label": "2"
+},
+{
+"value": "3",
+"label": "3"
+},
+{
+"value": "4",
+"label": "4"
+},
+{
+"value": "5",
+"label": "5"
+}          
+]
+}
+
+],
+"presets": [
+{
+"name": "Home Product Grid",
+"category": "Collection"
+}
+]
+}
+{% endschema %}
+

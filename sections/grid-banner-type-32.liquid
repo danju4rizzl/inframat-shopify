@@ -1,0 +1,230 @@
+<div data-section-id="{{ section.id }}" data-section-type="grid-banner-type-32" class="grid-banner-type-32" style="float:left;width:100%;background:{{ section.settings.bg_color }};">  
+  <div class="wrapper">  
+ 
+    <div class="grid-uniform">        
+      {% if section.blocks.size > 0 %}      
+      {% for block in section.blocks %}
+      {% if block.settings.alignment == "left" %}  
+      <div class="section-one wow fadeInUp animated">
+        <div class="grid__item wide--one-half post-large--one-half large--grid__item medium--grid__item small-grid__item"> 
+          <div class="ovrly09">
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif%}
+            {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: '1920X' }}" alt="{{ block.settings.title }}" />
+            <div class="overlay"></div>
+            {% else %}
+            <img src="//via.placeholder.com/1000x551">
+            {% endif%}           
+            {% if block.settings.link != blank %}  </a>
+            {% endif%}
+          </div>
+        </div>
+        <div class="grid__item wide--one-half post-large--one-half large--grid__item medium--grid__item small-grid__item">    
+          <div class="block-content wow fadeInLeft animated">             
+            {% if block.settings.title != blank %}                        
+            <h2>{{ block.settings.title }}</h2>        
+            {% endif %}   
+           
+            {% if block.settings.desc != blank %}                         
+            <p>{{ block.settings.desc }}</p>        
+            {% endif %} 
+            {% if block.settings.link != blank %}
+            <a href="{{ block.settings.link }}" style="color:{{block.settings.text-color }};background:{{block.settings.bg-color }};" class="btn">{{ block.settings.button }}<div class="overlay"></div></a>{% endif%}
+          </div>  
+        </div>
+      </div>
+      {% endif%}
+      {% if block.settings.alignment == "right" %}     
+      <div class="section-one  wow fadeInUp animated">
+        <div class="grid__item wide--one-half post-large--one-half large--grid__item medium--grid__item small-grid__item ">    
+          <div class="block-content ">           
+            {% if block.settings.title != blank %}                        
+            <h2 style=" color:{{ block.settings.heading-clr}}">{{ block.settings.title }}</h2>        
+            {% endif %}   
+            
+            {% if block.settings.desc != blank %}                         
+            <p>{{ block.settings.desc }}</p>        
+            {% endif %} 
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}" style="" class="btn">{{ block.settings.button }}<div class="overlay"></div></a>{% endif%}
+          </div>  
+        </div>
+        <div  class="grid__item wide--one-half post-large--one-half large--grid__item medium--grid__item small-grid__item">  
+          <div class="ovrly10">
+            {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif%}
+
+            {% if block.settings.image != blank %}
+            <img src="{{ block.settings.image | img_url: '1920X' }}" alt="{{ block.settings.title }}" />
+            <div class="overlay"></div>
+            {% else %}
+             <img src="//via.placeholder.com/1000x551">
+            {% endif%}           
+            {% if block.settings.link != blank %}  </a>
+            {% endif%}
+          </div>
+        </div>
+      </div>
+      {% endif%}
+      {% endfor %}
+      {% endif %}
+      <style>
+         {% for block in section.blocks %}
+        .grid-banner-type-32 .block-content .btn{ background:{{block.settings.bg-color }}; color:{{block.settings.text-color  }};}
+        .grid-banner-type-32 .block-content .btn:hover{ background:{{block.settings.bg-hvr }}; color:{{block.settings.text-hvr  }};}
+        {% endfor %}
+       
+        
+        .grid-banner-type-32 .section-one {  background: {{ section.settings.content_bg }}; }
+        .grid-banner-type-32 .block-content h6 {color:{{ section.settings.title_color }}; }        
+        .grid-banner-type-32 .block-content p { color:{{ section.settings.desc_color }}; }
+        
+        {% if section.settings.overlay_1 %} .grid-banner-type-32 .overlay { background:{{ section.settings.overlay_bgcolor_1 | color_modify: 'alpha', 0.7 }}; } {% endif %}
+      </style>
+    </div>
+   
+  </div>
+</div>
+{% schema %}
+{
+"name": "One Half Grid",
+"class": "index-section",
+"settings": [
+
+{
+"type": "color",
+"id": "bg_color",
+"label": "Bg color",
+"default":"#000"	
+}, 	
+{
+"type": "color",
+"id": "content_bg",
+"label": "Content Bg",
+"default":"#000"	
+}, 	
+{
+"type": "color",
+"id": "title_color",
+"label": "Heading color",
+"default":"#000"	
+}, 	
+{
+"type": "color",
+"id": "desc_color",
+"label": "Description",
+"default":"#000"	
+},
+
+{
+"type": "checkbox",
+"id": "overlay_1",
+"label": "Overlay"
+
+},
+{
+"type": "color",
+"id": "overlay_bgcolor_1",
+"label": "Overlay Bg",
+"default":"#fff"	
+}
+
+],
+"blocks": [
+{
+"type": "Image",
+"name": "support block",
+"settings": [ 
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image",
+"info": "Size: 600x412"
+},
+
+{
+"type": "select",
+"id": "alignment",
+"label": "Image alignment",
+"default": "left",
+"options": [
+{
+"value": "left",
+"label": "Left"
+},
+{
+"value": "right",
+"label": "Right"
+}        
+]
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Collection Name"	
+},
+{
+"type": "color",
+"id": "heading-clr",
+"label": "Heading Color",
+"default": "#000"	
+},
+{
+"type": "textarea",
+"id": "desc",
+"label": "Description",
+"default": "Sample Description"	
+},
+
+{
+"type": "text",
+"id": "button",
+"label": "Button",
+"default": "View all collection"	
+},  
+{
+"type": "color",
+"id": "bg-color",
+"label": "Button bg",
+"default": "#fff"	
+},
+{
+"type": "color",
+"id": "text-color",
+"label": "Button text",
+"default": "#fff"	
+},
+{
+"type": "color",
+"id": "text-hvr",
+"label": "Button text hover",
+"default": "#fff"	
+},
+{
+"type": "color",
+"id": "bg-hvr",
+"label": "Button Bg Hover",
+"default": "#fff"	
+},
+
+{
+"type": "url",
+"id": "link",
+"label": "Link"          
+}      
+
+]
+}
+],
+"presets": [
+{
+"name": "One Half Grid",
+"category": "Image",
+"blocks": [
+{
+"type": "Image"
+}        
+]
+}
+]
+}
+{% endschema %}
