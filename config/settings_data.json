@@ -2735,40 +2735,12 @@
               "author_designation": "",
               "author_designationcolor": "#35c7df"
             }
-          },
-          "1547180497043": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
-              "des_color": "#000000",
-              "image_heading": "",
-              "author_name": "Dulcie Dewolf",
-              "author_color": "#000000",
-              "author_designation": "Developer",
-              "author_designationcolor": "#000000"
-            }
-          },
-          "1547180505253": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
-              "des_color": "#000000",
-              "image_heading": "",
-              "author_name": "Claudio Tsui",
-              "author_color": "#000000",
-              "author_designation": "Tester",
-              "author_designationcolor": "#000000"
-            }
           }
         },
         "block_order": [
           "1547016912584-0",
           "1547016912584-1",
-          "1547016912584-2",
-          "1547180497043",
-          "1547180505253"
+          "1547016912584-2"
         ],
         "settings": {
           "background_color": "#ffffff",
