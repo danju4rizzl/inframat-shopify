@@ -2594,15 +2594,16 @@
           "1547016715103-0": {
             "type": "Image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/1000_x_551_Home_about_side_image.jpg",
               "alignment": "right",
-              "title": "Hot Pressure Aroma Ozone Vaporizer",
+              "title": "Widest Range of Products",
               "heading-clr": "#ffffff",
-              "desc": "With 24\/7 live streaming, a versatile magnetic stand, person alerts with Nest Aware and one app for all your Nest products, Nest Cam helps you keep an eye on what matters. From anywhere.",
-              "button": "View all collection",
+              "desc": "With more than 1000 products on our catalogue, mostly in stock at our depots located country wide ,we are able to offer fast reliable delivery of quality approved products to any site location in South Africa. Competitive rates guaranteed.",
+              "button": "View all Products",
               "bg-color": "#ffffff",
               "text-color": "#000000",
               "text-hvr": "#ffffff",
-              "bg-hvr": "#35c7df",
+              "bg-hvr": "#95c11c",
               "link": "shopify:\/\/collections\/all"
             }
           }
@@ -2612,7 +2613,7 @@
         ],
         "settings": {
           "bg_color": "#ffffff",
-          "content_bg": "#065aca",
+          "content_bg": "#00963f",
           "title_color": "#ffffff",
           "desc_color": "#ffffff",
           "overlay_1": false,
@@ -2684,58 +2685,6 @@
           "collection": "frontpage",
           "grid": "4",
           "rows": "2"
-        }
-      },
-      "1547016880281": {
-        "type": "support-block-type-4",
-        "disabled": true,
-        "blocks": {
-          "1547016880281-0": {
-            "type": "text",
-            "settings": {
-              "class_color": "#075ac9",
-              "title": "See Every Detail",
-              "title_color": "#222222",
-              "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-              "desc_color": "#444444"
-            }
-          },
-          "1547016880281-1": {
-            "type": "text",
-            "settings": {
-              "class_color": "#075ac9",
-              "title": "Get Alerts",
-              "title_color": "#222222",
-              "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-              "desc_color": "#444444"
-            }
-          },
-          "1547016880281-2": {
-            "type": "text",
-            "settings": {
-              "class_color": "#075ac9",
-              "title": "Talk and Listen",
-              "title_color": "#222222",
-              "desc": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-              "desc_color": "#444444"
-            }
-          }
-        },
-        "block_order": [
-          "1547016880281-0",
-          "1547016880281-1",
-          "1547016880281-2"
-        ],
-        "settings": {
-          "support_bg_img": false,
-          "show_overlay_bg": false,
-          "bg_color": "#fafafa",
-          "border_color": "#075ac9",
-          "border_hovercolor": "#35c7df",
-          "heading": "Support Block",
-          "heading_color": "#222222",
-          "sub_heading": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-          "sub_heading_color": "#444444"
         }
       },
       "1547016912584": {
@@ -3047,24 +2996,10 @@
           "team_4_designationcolor": "#444444",
           "team_section_bg": "#fafafa"
         }
-      },
-      "1585282755591": {
-        "type": "home-product-grid-type-5",
-        "settings": {
-          "title": "New arrivals",
-          "title_clr": "#000000",
-          "small_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-          "small_title_clr": "#000000",
-          "collection": "best-seller",
-          "grid": "4",
-          "rows": "1"
-        }
       }
     },
     "content_for_index": [
       "1542369329707",
-      "1585282755591",
-      "1547016880281",
       "1547016715103",
       "1547016755773",
       "1547016818515",
