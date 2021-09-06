@@ -1029,11 +1029,16 @@
           "footer_link": "#ffffff",
           "footer_link_hover": "#35c7df",
           "footer_logo_enable": true,
-          "welcome_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. <br><br>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+          "footer_logo": "shopify:\/\/shop_images\/INFRAMAT_LOGO.png",
+          "welcome_text": "Quality SABS Approved materials for civil , construction and infrastructure projects. Nationwide delivery.\n<br><br>\nWith more than 1000 products on our catalogue, mostly in stock at our depots located country wide ,we are able to offer fast reliable delivery of quality approved products to any site location in South Africa. Competitive rates guaranteed.",
           "welcome_text_color": "#444444",
           "footer_show_methods_of_payment": true,
           "payment_title": "Payment Method",
-          "payment_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam",
+          "payment_text": "We'll deliver anywhere. One stop shopping for <a href=\"https:\/\/www.inframat.co.za\/\">Inframat<\/a> products at competitive prices. Shop Now.",
+          "payment_icon_1": "shopify:\/\/shop_images\/XPayment_Icons.jpg",
+          "payment_icon_2": "shopify:\/\/shop_images\/XPayment_Icons_3.jpg",
+          "payment_icon_3": "shopify:\/\/shop_images\/XPayment_Icons_2.jpg",
+          "payment_icon_4": "shopify:\/\/shop_images\/XPayment_Icons_1.jpg",
           "footer_social_enable": true,
           "social_title": "Connect with us",
           "social_subheading": "Follow us on",
@@ -2205,80 +2210,6 @@
           "button": "Yes, Keep me informed"
         }
       },
-      "1543388641037": {
-        "type": "brands",
-        "blocks": {
-          "1543388641037-0": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-1": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-2": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-3": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-4": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-5": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-6": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          },
-          "1543388641037-7": {
-            "type": "Image",
-            "settings": {
-              "client_heading": "",
-              "client_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1543388641037-0",
-          "1543388641037-1",
-          "1543388641037-2",
-          "1543388641037-3",
-          "1543388641037-4",
-          "1543388641037-5",
-          "1543388641037-6",
-          "1543388641037-7"
-        ],
-        "settings": {
-          "title": ""
-        }
-      },
       "top-bar-type-2": {
         "type": "top-bar-type-2",
         "settings": {
@@ -2687,62 +2618,9 @@
           "rows": "1"
         }
       },
-      "1547016912584": {
-        "type": "testimonials",
-        "blocks": {
-          "1547016912584-0": {
-            "type": "text",
-            "settings": {
-              "text_desc": "I loved the quick delivery turnaround.",
-              "des_color": "#444444",
-              "image": "shopify:\/\/shop_images\/Ellipse_1.jpg",
-              "image_heading": "",
-              "author_name": "Johan Visser",
-              "author_color": "#00963f",
-              "author_designation": "",
-              "author_designationcolor": "#35c7df"
-            }
-          },
-          "1547016912584-1": {
-            "type": "text",
-            "settings": {
-              "text_desc": "Great Customer Service , Thanks",
-              "des_color": "#444444",
-              "image": "shopify:\/\/shop_images\/Ellipse_3.jpg",
-              "image_heading": "",
-              "author_name": "Tebogo",
-              "author_color": "#00963f",
-              "author_designation": "",
-              "author_designationcolor": "#35c7df"
-            }
-          },
-          "1547016912584-2": {
-            "type": "text",
-            "settings": {
-              "text_desc": "Great Variety, Done with my project. Thanks All!",
-              "des_color": "#444444",
-              "image": "shopify:\/\/shop_images\/Ellipse_4.jpg",
-              "image_heading": "",
-              "author_name": "Willie",
-              "author_color": "#00963f",
-              "author_designation": "",
-              "author_designationcolor": "#35c7df"
-            }
-          }
-        },
-        "block_order": [
-          "1547016912584-0",
-          "1547016912584-1",
-          "1547016912584-2"
-        ],
-        "settings": {
-          "background_color": "#00963f",
-          "title": "Testimonial",
-          "title_color": "#222222"
-        }
-      },
       "1547016927414": {
         "type": "wide-banner-type-4",
+        "disabled": true,
         "settings": {
           "show_image_1": true,
           "background_color": "rgba(0,0,0,0)",
@@ -2761,111 +2639,6 @@
           "show_gradient_clr": true,
           "overlay_gradient_bg": "#35c7df",
           "overlay_gradient_secondary_bg": "#075ac9"
-        }
-      },
-      "1547017004810": {
-        "type": "blog-post-type-4",
-        "settings": {
-          "title": "From Our Blog",
-          "title_clr": "#222222",
-          "small_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
-          "small_title_clr": "#444444",
-          "pick_featured_blog": "news",
-          "limit": "3",
-          "blog_title_clr": "#075ac9",
-          "title_hover_clr": "#35c7df",
-          "show_featured_date": true,
-          "date_color": "#444444",
-          "blog_date_clr": "#444444",
-          "blog_author_enable": false,
-          "blog_author_text": "#444444",
-          "blog_comment": false,
-          "blog_comment_text": "#444444",
-          "blog_description": true,
-          "blog_desc_clr": "#444444",
-          "btn": "View All Post",
-          "link": "\/blogs\/news"
-        }
-      },
-      "1547017086350": {
-        "type": "instagram",
-        "blocks": {
-          "1547017086350-0": {
-            "type": "Image",
-            "settings": {
-              "title": "Eye Monitor",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          },
-          "1547017086350-1": {
-            "type": "Image",
-            "settings": {
-              "title": "Scanning",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          },
-          "1547017086350-2": {
-            "type": "Image",
-            "settings": {
-              "title": "MRI Scan",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          },
-          "1547017224818": {
-            "type": "Image",
-            "settings": {
-              "title": "Lazer",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          },
-          "1547017228211": {
-            "type": "Image",
-            "settings": {
-              "title": "Eye Checkup",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          },
-          "1547017231006": {
-            "type": "Image",
-            "settings": {
-              "title": "Research Center",
-              "title_bg_color": "#075ac9",
-              "title_color": "#ffffff",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1547017086350-0",
-          "1547017086350-1",
-          "1547017086350-2",
-          "1547017224818",
-          "1547017228211",
-          "1547017231006"
-        ],
-        "settings": {
-          "overlay_bg_color": "#fafafa",
-          "texthover_bg_color": "#35c7df",
-          "texthover_txt_color": "#ffffff",
-          "instagram_bg_clr": "#fafafa",
-          "title": "Category Block",
-          "title_1_clr": "#222222",
-          "text_1": "A quick reminder that Monday is a holiday in Canada, so our office will be closed. We'll be back to helping you sell more first thing Tuesday morning. Enjoy your weekend! We know we will",
-          "text_1_clr": "#444444",
-          "button": "View All Categories",
-          "button_bg_hover_color": "#35c7df",
-          "button_txt_color": "#ffffff",
-          "button_text_hover_color": "#ffffff"
         }
       },
       "about": {
@@ -3000,7 +2773,6 @@
       }
     },
     "content_for_index": [
-      "1547016912584",
       "1542369329707",
       "1547016715103",
       "1547016755773",
@@ -3009,10 +2781,7 @@
       "1630963900ca9c1517",
       "1543388199595",
       "1630963913f50e9c1d",
-      "1547016927414",
-      "1547017004810",
-      "1543388641037",
-      "1547017086350"
+      "1547016927414"
     ]
   }
 }
