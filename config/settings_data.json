@@ -2201,15 +2201,15 @@
         "settings": {
           "show_overlay_bg": false,
           "news_bg_clr": "#fafafa",
-          "subtitle": "",
+          "subtitle": "Want to know what we're up to?",
           "subtitle_color": "#444444",
-          "title": "Newsletter",
-          "news_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac",
+          "title": "Stay up-to date",
+          "news_desc": "You can rely on us to deliver quality your product reliably and fast.  And we do the same with our quality newsletter every month, with new deals and on going promotions.",
           "title_color": "#222222",
           "input_bg_color": "#444444",
           "input_txt_color": "#ffffff",
           "text_color": "#444444",
-          "button": "Subscribe"
+          "button": "Yes, Keep me informed"
         }
       },
       "1543388641037": {
@@ -2622,36 +2622,43 @@
       },
       "1547016755773": {
         "type": "triangle-icon-block-a",
+        "disabled": true,
         "settings": {
           "tri_bg_clr": "#fafafa",
-          "heading": "Medical Equipment & Kit",
+          "heading": "Quality First Product",
           "heading_clr": "#222222",
-          "sub_heading": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
+          "sub_heading": "Are you still looking for the right material for your next project ? We have all the products you need, for high-quality first materials at affordable prices.",
           "sub_heading_clr": "#444444",
-          "icon_hover_txt_clr": "#35c7df",
-          "title_1": "Stethoscope",
+          "icon_hover_txt_clr": "#95c11c",
+          "icon_1_cls_img": "shopify:\/\/shop_images\/Ellipse_1.jpg",
+          "title_1": "Crushed Stone Aggregates",
           "title_clr_1": "#222222",
-          "desc_1": "Lorem Ipsum is simply dummy text of the printing and type setting industry. Industry's standard dummy",
+          "desc_1": "Premium supplier of quality crushed stone, aggregates, road base and sub-base materials including G1 to G7 , Gravel stone from 6mm , 9mm, 13mm , 19mm, 22mm , 28mm and 38mm , Delivered Nationwide",
           "desc_clr_1": "#444444",
-          "title_2": "Beaker",
+          "icon_2_cls_img": "shopify:\/\/shop_images\/Ellipse_3.jpg",
+          "title_2": "Paving Bricks & Blocks",
           "title_clr_2": "#222222",
-          "desc_2": "Lorem Ipsum is simply dummy text of the printing and type setting industry. Industry's standard dummy",
+          "desc_2": "Widest Range of Paving , Building and Landscaping Bricks. Available in Grey, Tan , Terracotta , Charcoal and delivered Nationwide. Building Bricks, Interlocking Paving Bricks, Bevel Bond Pavers , Interlocking bricks and Clay Stock and Paving Bricks.",
           "desc_clr_2": "#444444",
-          "title_3": "Microscope",
+          "icon_3_cls_img": "shopify:\/\/shop_images\/Ellipse_2.jpg",
+          "title_3": "Building and Plaster Sand",
           "title_clr_3": "#222222",
-          "desc_3": "Lorem Ipsum is simply dummy text of the printing and type setting industry. Industry's standard dummy",
+          "desc_3": "Washed Clean River Sand, Building Sand, and Plaster Sand bulk supply direct to your project. Quick Efficient Deliveries. We supply and distribute bulk sand products Nationwide. River Sand, Pit Sand, Plaster Sand.",
           "desc_clr_3": "#444444",
-          "title_4": "Injection",
+          "icon_4_cls_img": "shopify:\/\/shop_images\/Ellipse_4.jpg",
+          "title_4": "Asphalt",
           "title_clr_4": "#222222",
-          "desc_4": "Lorem Ipsum is simply dummy text of the printing and type setting industry. Industry's standard dummy",
+          "desc_4": "When you need hot asphalt delivered in a hurry, you can count on us to provide you with the right product in the right quantity in the right place.",
           "desc_clr_4": "#444444",
           "border_clr": "#b9e9f1",
           "border_hvr": "#065aca",
+          "image": "shopify:\/\/shop_images\/Big-paver-landscape.jpg",
           "image_heading": ""
         }
       },
       "1547016818515": {
         "type": "video-content-block-1",
+        "disabled": true,
         "settings": {
           "show_overlay_bg": true,
           "bg_clr": "#000000",
@@ -2678,13 +2685,13 @@
       "1547016854059": {
         "type": "home-product-grid-type-5",
         "settings": {
-          "title": "Best Sellers",
+          "title": "Featured Products",
           "title_clr": "#222222",
-          "small_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus Nullam quis ante",
+          "small_title": "We're proud to offer quality approved products at great prices. Inframat offers fast reliable delivery of quality approved products country-wide.",
           "small_title_clr": "#444444",
           "collection": "frontpage",
           "grid": "4",
-          "rows": "2"
+          "rows": "1"
         }
       },
       "1547016912584": {
@@ -2693,41 +2700,45 @@
           "1547016912584-0": {
             "type": "text",
             "settings": {
-              "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
+              "text_desc": "I loved the quick delivery turnaround.",
               "des_color": "#444444",
+              "image": "shopify:\/\/shop_images\/Ellipse_1.jpg",
               "image_heading": "",
-              "author_name": "Mack Shadley",
-              "author_color": "#075ac9",
-              "author_designation": "Supporter",
+              "author_name": "Johan Visser",
+              "author_color": "#00963f",
+              "author_designation": "",
               "author_designationcolor": "#35c7df"
             }
           },
           "1547016912584-1": {
             "type": "text",
             "settings": {
-              "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
+              "text_desc": "Great Customer Service , Thanks",
               "des_color": "#444444",
+              "image": "shopify:\/\/shop_images\/Ellipse_3.jpg",
               "image_heading": "",
-              "author_name": "Roxane Bert",
-              "author_color": "#075ac9",
-              "author_designation": "Quality Tester",
+              "author_name": "Tebogo",
+              "author_color": "#00963f",
+              "author_designation": "",
               "author_designationcolor": "#35c7df"
             }
           },
           "1547016912584-2": {
             "type": "text",
             "settings": {
-              "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
+              "text_desc": "Great Variety, Done with my project. Thanks All!",
               "des_color": "#444444",
+              "image": "shopify:\/\/shop_images\/Ellipse_4.jpg",
               "image_heading": "",
-              "author_name": "Eli Bickett",
-              "author_color": "#075ac9",
-              "author_designation": "Designation",
+              "author_name": "Willie",
+              "author_color": "#00963f",
+              "author_designation": "",
               "author_designationcolor": "#35c7df"
             }
           },
           "1547180497043": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
               "des_color": "#000000",
@@ -2740,6 +2751,7 @@
           },
           "1547180505253": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text_desc": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum",
               "des_color": "#000000",
@@ -2996,18 +3008,44 @@
           "team_4_designationcolor": "#444444",
           "team_section_bg": "#fafafa"
         }
+      },
+      "1630963900ca9c1517": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "Best Selling Deals",
+          "title_clr": "#000",
+          "small_title": "You don't have to compromise on quality. You can buy Inframat products quickly and reliably at any site in South Africa without compromising on quality standards. Shop Now.",
+          "small_title_clr": "#000",
+          "collection": "best-selling-products",
+          "grid": "3",
+          "rows": "2"
+        }
+      },
+      "1630963913f50e9c1d": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "Concert Product",
+          "title_clr": "#000",
+          "small_title": "The future of supply chain management. Inframat's revolutionary supply chain management software helps you find, order and deliver quality products at any site within South Africa.",
+          "small_title_clr": "#000",
+          "collection": "concrete-products-supplier-durban-johannesburg",
+          "grid": "3",
+          "rows": "2"
+        }
       }
     },
     "content_for_index": [
+      "1547016912584",
       "1542369329707",
       "1547016715103",
       "1547016755773",
       "1547016818515",
       "1547016854059",
-      "1547016912584",
+      "1630963900ca9c1517",
+      "1543388199595",
+      "1630963913f50e9c1d",
       "1547016927414",
       "1547017004810",
-      "1543388199595",
       "1543388641037",
       "1547017086350"
     ]
