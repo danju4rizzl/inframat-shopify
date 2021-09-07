@@ -1,12 +1,12 @@
 {
   "general": {
+    "404": {
+      "title": "404 Página Não Encontrada",
+      "subtext_html": "A página que solicitou não existe. Clique <a href=\"\/collections\/all\">aqui<\/a> para continuar as suas compras."
+    },
     "meta": {
       "tags": "Etiquetado como \"{{ tags }}\"",
       "page": "Página {{ page }}"
-    },
-    "404": {
-      "title": "404 Página Não Encontrada",
-      "subtext_html": "A página que solicitou não existe. Clique <a href=\"/collections/all\">aqui</a> para continuar as suas compras."
     },
     "password_page": {
       "opening_soon": "Opening Soon",
@@ -20,7 +20,7 @@
       "signup_form_email_placeholder": "Your email",
       "signup_form_submit": "Submit",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
       "password_link": "Enter using password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
       "close": "Encerrar (Esc)"
@@ -82,7 +82,7 @@
       "update": "Atualizar Carrinho de Compras",
       "checkout": "Check-Out",
       "empty": "O seu carrinho de compras está neste momento vazio.",
-      "continue_browsing_html": "Continue a ver <a href=\"/collections/all\">aqui</a>.",
+      "continue_browsing_html": "Continue a ver <a href=\"\/collections\/all\">aqui<\/a>.",
       "continue_shopping": "Continuar a Comprar"
     },
     "label": {
@@ -231,11 +231,11 @@
     },
     "onboarding": {
       "modal_title": "Quase lá...",
-      "no_products_html": "Não tem produtos na sua Coleção Frontpage. Esta imagem de preenchimento será exibida até <a href=\"/admin/collections?tutorial=Frontpage\">adicionar um produto a esta coleção</a>.",
+      "no_products_html": "Não tem produtos na sua Coleção Frontpage. Esta imagem de preenchimento será exibida até <a href=\"\/admin\/collections?tutorial=Frontpage\">adicionar um produto a esta coleção<\/a>.",
       "no_products_collection": "Ainda não há artigos, mas assim que começar a adicioná-los, eles vão surgir aqui, mesmo se não estiverem inseridos numa colecção.",
       "add_product": "Adicionar um produto",
       "product_title": "Título do Produto Exemplo",
-      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"/admin/custom_collections\">Adicione algumas coleções</a> para continuar com a Frontpage predefinida.",
+      "no_collections_html": "Ainda não tem coleções para exibir aqui. <a href=\"\/admin\/custom_collections\">Adicione algumas coleções<\/a> para continuar com a Frontpage predefinida.",
       "add_collection": "Adicionar uma coleção",
       "collection_title": "Título da Coleção Exemplo"
     }
@@ -297,7 +297,52 @@
       "add_to_apple_wallet": "Adicionar ao Apple Wallet"
     }
   },
-  "date_formats":{
-    "month_day_year":"%d de %B de %Y"
+  "date_formats": {
+    "month_day_year": "%d de %B de %Y"
+  },
+  "pagefly": {
+    "products": {
+      "product": {
+        "regular_price": "Regular price",
+        "sold_out": "Sold out",
+        "unavailable": "Unavailable",
+        "on_sale": "Sale",
+        "quantity": "Quantity",
+        "add_to_cart": "Add to cart",
+        "back_to_collection": "Back to {{ title }}",
+        "view_details": "View details"
+      }
+    },
+    "article": {
+      "tags": "Tags:",
+      "all_topics": "All topics",
+      "by_author": "by {{ author }}",
+      "posted_in": "Posted in",
+      "read_more": "Read more",
+      "back_to_blog": "Back to {{ title }}"
+    },
+    "comments": {
+      "title": "Leave a comment",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "post": "Post comment",
+      "moderated": "Please note, comments must be approved before they are published",
+      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
+      "success": "Your comment was posted successfully! Thank you!",
+      "comments_with_count": {
+        "one": "{{ count }} comment",
+        "other": "{{ count }} comments"
+      }
+    },
+    "password_page": {
+      "login_form_message": "Enter store using password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "Your password",
+      "login_form_submit": "Enter",
+      "signup_form_email_label": "Email",
+      "signup_form_success": "We will send you an email right before we open!",
+      "password_link": "Enter using password"
+    }
   }
 }
