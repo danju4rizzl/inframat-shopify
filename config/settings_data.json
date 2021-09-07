@@ -2768,24 +2768,182 @@
           "small_title_clr": "#000000",
           "collection": "concrete-products-supplier-durban-johannesburg",
           "grid": "4",
-          "rows": "2"
+          "rows": "1"
+        }
+      },
+      "1631045322971e7d9e": {
+        "type": "blog-post-type-4",
+        "disabled": true,
+        "settings": {
+          "title": "",
+          "title_clr": "#000",
+          "small_title": "",
+          "small_title_clr": "#000",
+          "pick_featured_blog": "",
+          "limit": "2",
+          "blog_title_clr": "#000",
+          "title_hover_clr": "#000",
+          "show_featured_date": false,
+          "date_color": "#000",
+          "blog_date_clr": "#000",
+          "blog_author_enable": false,
+          "blog_author_text": "#000",
+          "blog_comment": false,
+          "blog_comment_text": "#000",
+          "blog_description": false,
+          "blog_desc_clr": "#000",
+          "btn": "View All Post",
+          "link": "\/blogs\/news"
+        }
+      },
+      "163104623811b0135a": {
+        "type": "custom-content",
+        "blocks": {
+          "163104623811b0135a-0": {
+            "type": "text",
+            "settings": {
+              "heading_text": "Reliable delivery guaranteed",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "<p>Inframat: Delivery done right. More than 1000 products on our catalog, mostly in stock at depots country-wide. Fast reliable delivery of quality approved products to any site located in South Africa. Request a quote today. <\/p>",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "163104623811b0135a-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Dilievery_image.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "163104623811b0135a-0",
+          "163104623811b0135a-1"
+        ],
+        "settings": {
+          "heading_text": "We've got you covered!",
+          "heading_color": "#3a3a3a",
+          "background_color": "",
+          "top_margin": true,
+          "bottom_margin": true
+        }
+      },
+      "16310463455acb17b2": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "Flagstones and Slabs",
+          "title_clr": "#000",
+          "small_title": "",
+          "small_title_clr": "#000",
+          "collection": "flagstones-and-slabs",
+          "grid": "4",
+          "rows": "1"
+        }
+      },
+      "16310464382182a5f3": {
+        "type": "instagram",
+        "disabled": true,
+        "blocks": {
+          "16310464382182a5f3-0": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "title_bg_color": "#000",
+              "title_color": "#000",
+              "link": ""
+            }
+          },
+          "16310464382182a5f3-1": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "title_bg_color": "#000",
+              "title_color": "#000",
+              "link": ""
+            }
+          },
+          "16310464382182a5f3-2": {
+            "type": "Image",
+            "settings": {
+              "title": "Collection Name",
+              "title_bg_color": "#000",
+              "title_color": "#000",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "16310464382182a5f3-0",
+          "16310464382182a5f3-1",
+          "16310464382182a5f3-2"
+        ],
+        "settings": {
+          "overlay_bg_color": "#000",
+          "texthover_bg_color": "#000",
+          "texthover_txt_color": "#000",
+          "instagram_bg_clr": "#000",
+          "title": "Instagram Feed",
+          "title_1_clr": "#000",
+          "text_1": "",
+          "text_1_clr": "#000",
+          "button": "",
+          "button_bg_hover_color": "#000",
+          "button_txt_color": "#fff",
+          "button_text_hover_color": "#000"
+        }
+      },
+      "1631046452e25628fb": {
+        "type": "triangle-icon-block-a",
+        "settings": {
+          "tri_bg_clr": "#000",
+          "heading": "",
+          "heading_clr": "#000",
+          "sub_heading": "",
+          "sub_heading_clr": "#000",
+          "icon_hover_txt_clr": "#000",
+          "title_1": "",
+          "title_clr_1": "#000",
+          "desc_1": "",
+          "desc_clr_1": "#000",
+          "title_2": "",
+          "title_clr_2": "#000",
+          "desc_2": "",
+          "desc_clr_2": "#000",
+          "title_3": "",
+          "title_clr_3": "#000",
+          "desc_3": "",
+          "desc_clr_3": "#000",
+          "title_4": "",
+          "title_clr_4": "#000",
+          "desc_4": "",
+          "desc_clr_4": "#000",
+          "border_clr": "#000",
+          "border_hvr": "#000",
+          "image_heading": ""
         }
       }
     },
     "content_for_index": [
+      "16310463455acb17b2",
       "1542369329707",
       "1547016715103",
       "1547016755773",
       "1547016818515",
       "1547016854059",
       "1630963900ca9c1517",
-      "1543388199595",
+      "163104623811b0135a",
       "1630963913f50e9c1d",
-      "1547016927414"
+      "1543388199595",
+      "1547016927414",
+      "1631045322971e7d9e",
+      "16310464382182a5f3",
+      "1631046452e25628fb"
     ]
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 589936a3265c061a139d74609fe5affa8496791a
