@@ -142,7 +142,7 @@
     "contact_module_address1": "No: 58 A, East Madison Street,",
     "contact_module_address2": "Baltimore, MD, USA\r\n4508",
     "display_popup_newsletter": true,
-    "pop_up_newsletter_img_show": true,
+    "pop_up_newsletter_img_show": false,
     "popup_newsletter_bg": "#ffffff",
     "popup_newsletter_title": "Get to know the latest offers",
     "popup_newsletter_message": "Subscribe and get notified at first on the latest update and offers!",
@@ -2751,9 +2751,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "Best Selling Deals",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "You don't have to compromise on quality. You can buy Inframat products quickly and reliably at any site in South Africa without compromising on quality standards. Shop Now.",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "best-selling-products",
           "grid": "3",
           "rows": "2"
@@ -2763,9 +2763,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "Concert Product",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "The future of supply chain management. Inframat's revolutionary supply chain management software helps you find, order and deliver quality products at any site within South Africa.",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "concrete-products-supplier-durban-johannesburg",
           "grid": "3",
           "rows": "2"
