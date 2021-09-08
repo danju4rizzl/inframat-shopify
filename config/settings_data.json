@@ -2764,7 +2764,7 @@
         "settings": {
           "title": "Concert Product",
           "title_clr": "#000000",
-          "small_title": "The future of supply chain management. Inframat's revolutionary supply chain management software helps you find, order and deliver quality products at any site within South Africa.",
+          "small_title": "",
           "small_title_clr": "#000000",
           "collection": "concrete-products-supplier-durban-johannesburg",
           "grid": "4",
@@ -2776,22 +2776,22 @@
         "disabled": true,
         "settings": {
           "title": "",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "pick_featured_blog": "",
           "limit": "2",
-          "blog_title_clr": "#000",
-          "title_hover_clr": "#000",
+          "blog_title_clr": "#000000",
+          "title_hover_clr": "#000000",
           "show_featured_date": false,
-          "date_color": "#000",
-          "blog_date_clr": "#000",
+          "date_color": "#000000",
+          "blog_date_clr": "#000000",
           "blog_author_enable": false,
-          "blog_author_text": "#000",
+          "blog_author_text": "#000000",
           "blog_comment": false,
-          "blog_comment_text": "#000",
+          "blog_comment_text": "#000000",
           "blog_description": false,
-          "blog_desc_clr": "#000",
+          "blog_desc_clr": "#000000",
           "btn": "View All Post",
           "link": "\/blogs\/news"
         }
@@ -2805,7 +2805,7 @@
               "heading_text": "Reliable delivery guaranteed",
               "heading_color": "#3a3a3a",
               "heading_style": "h3",
-              "paragraph_text": "<p>Inframat: Delivery done right. More than 1000 products on our catalog, mostly in stock at depots country-wide. Fast reliable delivery of quality approved products to any site located in South Africa. Request a quote today. <\/p>",
+              "paragraph_text": "<p>Inframat: Delivery done right. More than 1000 products on our catalog, mostly in stock at depots country-wide. Fast reliable delivery of quality approved products to any site located in South Africa. Request a quote today.  <\/p><p>The future of supply chain management. Inframat's revolutionary supply chain management software helps you find, order and deliver quality products at any site within South Africa.<\/p>",
               "paragraph_color": "#4a4a4a",
               "paragraph_size": "1",
               "width": "50%",
@@ -2838,9 +2838,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "Flagstones and Slabs",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "flagstones-and-slabs",
           "grid": "4",
           "rows": "1"
@@ -2854,8 +2854,8 @@
             "type": "Image",
             "settings": {
               "title": "Collection Name",
-              "title_bg_color": "#000",
-              "title_color": "#000",
+              "title_bg_color": "#000000",
+              "title_color": "#000000",
               "link": ""
             }
           },
@@ -2863,8 +2863,8 @@
             "type": "Image",
             "settings": {
               "title": "Collection Name",
-              "title_bg_color": "#000",
-              "title_color": "#000",
+              "title_bg_color": "#000000",
+              "title_color": "#000000",
               "link": ""
             }
           },
@@ -2872,8 +2872,8 @@
             "type": "Image",
             "settings": {
               "title": "Collection Name",
-              "title_bg_color": "#000",
-              "title_color": "#000",
+              "title_bg_color": "#000000",
+              "title_color": "#000000",
               "link": ""
             }
           }
@@ -2884,48 +2884,48 @@
           "16310464382182a5f3-2"
         ],
         "settings": {
-          "overlay_bg_color": "#000",
-          "texthover_bg_color": "#000",
-          "texthover_txt_color": "#000",
-          "instagram_bg_clr": "#000",
+          "overlay_bg_color": "#000000",
+          "texthover_bg_color": "#000000",
+          "texthover_txt_color": "#000000",
+          "instagram_bg_clr": "#000000",
           "title": "Instagram Feed",
-          "title_1_clr": "#000",
+          "title_1_clr": "#000000",
           "text_1": "",
-          "text_1_clr": "#000",
+          "text_1_clr": "#000000",
           "button": "",
-          "button_bg_hover_color": "#000",
-          "button_txt_color": "#fff",
-          "button_text_hover_color": "#000"
+          "button_bg_hover_color": "#000000",
+          "button_txt_color": "#ffffff",
+          "button_text_hover_color": "#000000"
         }
       },
       "1631046452e25628fb": {
         "type": "triangle-icon-block-a",
         "disabled": true,
         "settings": {
-          "tri_bg_clr": "#000",
+          "tri_bg_clr": "#000000",
           "heading": "",
-          "heading_clr": "#000",
+          "heading_clr": "#000000",
           "sub_heading": "",
-          "sub_heading_clr": "#000",
-          "icon_hover_txt_clr": "#000",
+          "sub_heading_clr": "#000000",
+          "icon_hover_txt_clr": "#000000",
           "title_1": "",
-          "title_clr_1": "#000",
+          "title_clr_1": "#000000",
           "desc_1": "",
-          "desc_clr_1": "#000",
+          "desc_clr_1": "#000000",
           "title_2": "",
-          "title_clr_2": "#000",
+          "title_clr_2": "#000000",
           "desc_2": "",
-          "desc_clr_2": "#000",
+          "desc_clr_2": "#000000",
           "title_3": "",
-          "title_clr_3": "#000",
+          "title_clr_3": "#000000",
           "desc_3": "",
-          "desc_clr_3": "#000",
+          "desc_clr_3": "#000000",
           "title_4": "",
-          "title_clr_4": "#000",
+          "title_clr_4": "#000000",
           "desc_4": "",
-          "desc_clr_4": "#000",
-          "border_clr": "#000",
-          "border_hvr": "#000",
+          "desc_clr_4": "#000000",
+          "border_clr": "#000000",
+          "border_hvr": "#000000",
           "image_heading": ""
         }
       }
