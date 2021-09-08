@@ -2774,22 +2774,22 @@
       "1631045322971e7d9e": {
         "type": "blog-post-type-4",
         "settings": {
-          "title": "",
+          "title": "Our Latest Blog",
           "title_clr": "#000000",
           "small_title": "",
           "small_title_clr": "#000000",
           "pick_featured_blog": "news",
-          "limit": "2",
+          "limit": "4",
           "blog_title_clr": "#000000",
           "title_hover_clr": "#000000",
-          "show_featured_date": false,
+          "show_featured_date": true,
           "date_color": "#000000",
           "blog_date_clr": "#000000",
-          "blog_author_enable": false,
+          "blog_author_enable": true,
           "blog_author_text": "#000000",
-          "blog_comment": false,
+          "blog_comment": true,
           "blog_comment_text": "#000000",
-          "blog_description": false,
+          "blog_description": true,
           "blog_desc_clr": "#000000",
           "btn": "View All Post",
           "link": "\/blogs\/news"
@@ -2966,6 +2966,7 @@
       }
     },
     "content_for_index": [
+      "1631045322971e7d9e",
       "1542369329707",
       "1547016715103",
       "1547016755773",
@@ -2980,7 +2981,6 @@
       "1631118236472a9032",
       "16311208360687d92f",
       "1547016927414",
-      "1631045322971e7d9e",
       "16310464382182a5f3",
       "1631046452e25628fb"
     ]
