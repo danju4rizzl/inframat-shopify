@@ -240,8 +240,8 @@
         "type": "sidebar-category",
         "settings": {
           "enable_sidecategory": true,
-          "linkedlist": "",
-          "linkedlist_title": "Category"
+          "linkedlist": "primary-menu",
+          "linkedlist_title": "View Category"
         }
       },
       "sidebar-bestsellers": {
@@ -259,7 +259,6 @@
           "1477474976957": {
             "type": "content",
             "settings": {
-              "promo_img": "",
               "promo_link": "",
               "promo_title": "Promo Text"
             }
@@ -267,7 +266,6 @@
           "1477475002420": {
             "type": "content",
             "settings": {
-              "promo_img": "",
               "promo_link": "",
               "promo_title": "Promo Text"
             }
@@ -1327,9 +1325,9 @@
             "settings": {
               "class": "fas fa-gift",
               "class_color": "#ffffff",
-              "icon_bg_color": "#075ac9",
+              "icon_bg_color": "#95c11c",
               "title": "Special offer",
-              "title_color": "#075ac9",
+              "title_color": "#00963f",
               "sub_title": "",
               "sub_title_color": "#444444",
               "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -1342,9 +1340,9 @@
             "settings": {
               "class": "fas fa-money-check",
               "class_color": "#ffffff",
-              "icon_bg_color": "#075ac9",
+              "icon_bg_color": "#95c11c",
               "title": "Free reward card",
-              "title_color": "#075ac9",
+              "title_color": "#00963f",
               "sub_title": "",
               "sub_title_color": "#444444",
               "desc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
@@ -1357,9 +1355,9 @@
             "settings": {
               "class": "fas fa-truck",
               "class_color": "#ffffff",
-              "icon_bg_color": "#075ac9",
+              "icon_bg_color": "#95c11c",
               "title": "Free shipping",
-              "title_color": "#075ac9",
+              "title_color": "#00963f",
               "sub_title": "",
               "sub_title_color": "#444444",
               "desc": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat.",
@@ -1372,9 +1370,9 @@
             "settings": {
               "class": "fas fa-undo",
               "class_color": "#ffffff",
-              "icon_bg_color": "#075ac9",
+              "icon_bg_color": "#95c11c",
               "title": "Order return",
-              "title_color": "#075ac9",
+              "title_color": "#00963f",
               "sub_title": "",
               "sub_title_color": "#444444",
               "desc": "nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.",
@@ -1390,18 +1388,18 @@
           "1500546865134"
         ],
         "settings": {
-          "bg_color": "#fff"
+          "bg_color": "#ffffff"
         }
       },
       "product-sidebar-deals": {
         "type": "product-sidebar-deals",
         "settings": {
           "show_best_products": true,
-          "title": "Hot Deals",
-          "dealitems": "best-seller",
-          "dealbtn": "#000",
+          "title": "Concrete Deals",
+          "dealitems": "concrete-products-supplier-durban-johannesburg",
+          "dealbtn": "#000000",
           "dealbtn_text": "#ffffff",
-          "limit": "4"
+          "limit": "2"
         }
       },
       "footer-model-9": {
@@ -1501,9 +1499,9 @@
         "type": "product-sidebar-bestsellers",
         "settings": {
           "show_best_products": true,
-          "title": "Best Sellers",
-          "bestseller": "new-arrival",
-          "limit": "4"
+          "title": "Slab Deals",
+          "bestseller": "flagstones-and-slabs",
+          "limit": "2"
         }
       },
       "header-model-9": {
@@ -1927,11 +1925,11 @@
               "class_color": "#ffffff",
               "icon_bg_color": "#075ac9",
               "title": "Special offer 1 + 1 = 3",
-              "title_color": "#000",
+              "title_color": "#000000",
               "sub_title": "Get a gift",
-              "sub_title_color": "#000",
+              "sub_title_color": "#000000",
               "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-              "desc_color": "#000",
+              "desc_color": "#000000",
               "link": "collections\/all"
             }
           },
@@ -1942,11 +1940,11 @@
               "class_color": "#ffffff",
               "icon_bg_color": "#075ac9",
               "title": "Free reward card",
-              "title_color": "#000",
+              "title_color": "#000000",
               "sub_title": "Worth $10, $50, $100",
-              "sub_title_color": "#000",
+              "sub_title_color": "#000000",
               "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-              "desc_color": "#000",
+              "desc_color": "#000000",
               "link": ""
             }
           },
@@ -1957,11 +1955,11 @@
               "class_color": "#ffffff",
               "icon_bg_color": "#f1510a",
               "title": "Free shipping",
-              "title_color": "#000",
+              "title_color": "#000000",
               "sub_title": "On orders over $100",
-              "sub_title_color": "#000",
+              "sub_title_color": "#000000",
               "desc": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.",
-              "desc_color": "#000",
+              "desc_color": "#000000",
               "link": "\/collections\/all"
             }
           },
@@ -1972,11 +1970,11 @@
               "class_color": "#ffffff",
               "icon_bg_color": "#f1510a",
               "title": "Order return",
-              "title_color": "#000",
+              "title_color": "#000000",
               "sub_title": "Returns within 5 days",
-              "sub_title_color": "#000",
+              "sub_title_color": "#000000",
               "desc": "Fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official.",
-              "desc_color": "#000",
+              "desc_color": "#000000",
               "link": "\/collections"
             }
           }
@@ -2010,7 +2008,6 @@
           "product_related_enable": true,
           "related_prds_heading": "",
           "heading_image_need": false,
-          "heading_image": "",
           "related_prds_title": "Related Products",
           "display_recently_viewed_products": true,
           "recently_viewed_products_title": "Recently Viewed Products",
