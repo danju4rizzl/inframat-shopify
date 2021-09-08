@@ -248,8 +248,8 @@
         "type": "sidebar-bestsellers",
         "settings": {
           "show_best_products": true,
-          "title": "Best Sellers",
-          "bestseller": "new-arrival",
+          "title": "Most Popular",
+          "bestseller": "best-selling-products",
           "limi": "4"
         }
       },
