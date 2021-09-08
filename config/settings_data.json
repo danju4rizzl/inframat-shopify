@@ -2945,9 +2945,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "Grass Blocks",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "grass-blocks",
           "grid": "4",
           "rows": "1"
@@ -2957,9 +2957,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "G1 - G7 Base Materials",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "g1-g7-base-materials",
           "grid": "4",
           "rows": "1"
@@ -2975,7 +2975,7 @@
               "title": "Organic Products",
               "title_bg_color": "#95c11c",
               "title_color": "#ffffff",
-              "link": ""
+              "link": "https:\/\/www.inframat.co.za\/collections\/organic-products-bark-nuggets-chips-mulch-supplier"
             }
           },
           "1631122156115dd021-1": {
@@ -2985,7 +2985,7 @@
               "title": "Crushed Stones",
               "title_bg_color": "#95c11c",
               "title_color": "#ffffff",
-              "link": ""
+              "link": "https:\/\/www.inframat.co.za\/collections\/crushed-stone-supplier-johannesburg-pretoria-durban-cape-town"
             }
           },
           "1631122156115dd021-2": {
@@ -2995,7 +2995,7 @@
               "title": "Concrete Products",
               "title_bg_color": "#95c11c",
               "title_color": "#ffffff",
-              "link": ""
+              "link": "https:\/\/www.inframat.co.za\/collections\/concrete-products-supplier-durban-johannesburg"
             }
           }
         },
@@ -3012,11 +3012,11 @@
           "title": "Product categories",
           "title_1_clr": "#ffffff",
           "text_1": "",
-          "text_1_clr": "#000",
+          "text_1_clr": "#000000",
           "button": "",
           "button_bg_hover_color": "#00963f",
-          "button_txt_color": "#fff",
-          "button_text_hover_color": "#000"
+          "button_txt_color": "#ffffff",
+          "button_text_hover_color": "#000000"
         }
       }
     },
