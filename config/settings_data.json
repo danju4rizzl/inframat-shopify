@@ -3009,8 +3009,8 @@
           "texthover_bg_color": "#ffffff",
           "texthover_txt_color": "#00963f",
           "instagram_bg_clr": "#ffffff",
-          "title": "Quality Product Range",
-          "title_1_clr": "#000",
+          "title": "Product categories",
+          "title_1_clr": "#ffffff",
           "text_1": "",
           "text_1_clr": "#000",
           "button": "",
@@ -3021,7 +3021,6 @@
       }
     },
     "content_for_index": [
-      "1631122156115dd021",
       "1542369329707",
       "1547016715103",
       "1547016755773",
@@ -3035,6 +3034,7 @@
       "16311208360687d92f",
       "163112205970ca6f44",
       "1543388199595",
+      "1631122156115dd021",
       "1547016927414",
       "1631045322971e7d9e",
       "16310464382182a5f3",
