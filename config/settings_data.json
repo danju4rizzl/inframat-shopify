@@ -2964,60 +2964,6 @@
           "grid": "4",
           "rows": "1"
         }
-      },
-      "1631122156115dd021": {
-        "type": "instagram",
-        "blocks": {
-          "1631122156115dd021-0": {
-            "type": "Image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Frame_1.jpg",
-              "title": "Organic Products",
-              "title_bg_color": "#95c11c",
-              "title_color": "#ffffff",
-              "link": "https:\/\/www.inframat.co.za\/collections\/organic-products-bark-nuggets-chips-mulch-supplier"
-            }
-          },
-          "1631122156115dd021-1": {
-            "type": "Image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Category_image_2.jpg",
-              "title": "Crushed Stones",
-              "title_bg_color": "#95c11c",
-              "title_color": "#ffffff",
-              "link": "https:\/\/www.inframat.co.za\/collections\/crushed-stone-supplier-johannesburg-pretoria-durban-cape-town"
-            }
-          },
-          "1631122156115dd021-2": {
-            "type": "Image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Category_image_3.jpg",
-              "title": "Concrete Products",
-              "title_bg_color": "#95c11c",
-              "title_color": "#ffffff",
-              "link": "https:\/\/www.inframat.co.za\/collections\/concrete-products-supplier-durban-johannesburg"
-            }
-          }
-        },
-        "block_order": [
-          "1631122156115dd021-0",
-          "1631122156115dd021-1",
-          "1631122156115dd021-2"
-        ],
-        "settings": {
-          "overlay_bg_color": "#95c11c",
-          "texthover_bg_color": "#ffffff",
-          "texthover_txt_color": "#00963f",
-          "instagram_bg_clr": "#ffffff",
-          "title": "Product categories",
-          "title_1_clr": "#ffffff",
-          "text_1": "",
-          "text_1_clr": "#000000",
-          "button": "",
-          "button_bg_hover_color": "#00963f",
-          "button_txt_color": "#ffffff",
-          "button_text_hover_color": "#000000"
-        }
       }
     },
     "content_for_index": [
@@ -3034,7 +2980,6 @@
       "1543388199595",
       "1631118236472a9032",
       "16311208360687d92f",
-      "1631122156115dd021",
       "1547016927414",
       "1631045322971e7d9e",
       "16310464382182a5f3",
