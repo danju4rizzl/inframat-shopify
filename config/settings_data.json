@@ -2940,6 +2940,30 @@
           "grid": "3",
           "rows": "1"
         }
+      },
+      "16311208360687d92f": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "Grass Blocks",
+          "title_clr": "#000",
+          "small_title": "",
+          "small_title_clr": "#000",
+          "collection": "grass-blocks",
+          "grid": "4",
+          "rows": "1"
+        }
+      },
+      "163112205970ca6f44": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "G1 - G7 Base Materials",
+          "title_clr": "#000",
+          "small_title": "",
+          "small_title_clr": "#000",
+          "collection": "g1-g7-base-materials",
+          "grid": "4",
+          "rows": "1"
+        }
       }
     },
     "content_for_index": [
@@ -2953,11 +2977,13 @@
       "1630963913f50e9c1d",
       "16310463455acb17b2",
       "1631118236472a9032",
+      "16311208360687d92f",
       "1543388199595",
       "1547016927414",
       "1631045322971e7d9e",
       "16310464382182a5f3",
-      "1631046452e25628fb"
+      "1631046452e25628fb",
+      "163112205970ca6f44"
     ]
   }
 }
