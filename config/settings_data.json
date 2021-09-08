@@ -2928,9 +2928,22 @@
           "border_hvr": "#000000",
           "image_heading": ""
         }
+      },
+      "1631118236472a9032": {
+        "type": "home-product-grid-type-5",
+        "settings": {
+          "title": "Bitumen Emulsions",
+          "title_clr": "#000",
+          "small_title": "",
+          "small_title_clr": "#000",
+          "collection": "bitumen-emulsions",
+          "grid": "3",
+          "rows": "1"
+        }
       }
     },
     "content_for_index": [
+      "1631118236472a9032",
       "1542369329707",
       "1547016715103",
       "1547016755773",
