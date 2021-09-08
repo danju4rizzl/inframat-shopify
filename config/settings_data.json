@@ -1892,7 +1892,7 @@
           "sidebar_bg_color": "#ffffff",
           "title": "Best Deals",
           "dealitems": "best-selling-products",
-          "dealbtn_border": "#000000",
+          "dealbtn_border": "#00963f",
           "dealbtn": "#000000",
           "dealbtn_text": "#000000",
           "limit": "4"
