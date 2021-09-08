@@ -2964,9 +2964,64 @@
           "grid": "4",
           "rows": "1"
         }
+      },
+      "1631122156115dd021": {
+        "type": "instagram",
+        "blocks": {
+          "1631122156115dd021-0": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Frame_1.jpg",
+              "title": "Organic Products",
+              "title_bg_color": "#95c11c",
+              "title_color": "#ffffff",
+              "link": ""
+            }
+          },
+          "1631122156115dd021-1": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Category_image_2.jpg",
+              "title": "Crushed Stones",
+              "title_bg_color": "#95c11c",
+              "title_color": "#ffffff",
+              "link": ""
+            }
+          },
+          "1631122156115dd021-2": {
+            "type": "Image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Category_image_3.jpg",
+              "title": "Concrete Products",
+              "title_bg_color": "#95c11c",
+              "title_color": "#ffffff",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1631122156115dd021-0",
+          "1631122156115dd021-1",
+          "1631122156115dd021-2"
+        ],
+        "settings": {
+          "overlay_bg_color": "#95c11c",
+          "texthover_bg_color": "#ffffff",
+          "texthover_txt_color": "#00963f",
+          "instagram_bg_clr": "#ffffff",
+          "title": "Quality Product Range",
+          "title_1_clr": "#000",
+          "text_1": "",
+          "text_1_clr": "#000",
+          "button": "",
+          "button_bg_hover_color": "#00963f",
+          "button_txt_color": "#fff",
+          "button_text_hover_color": "#000"
+        }
       }
     },
     "content_for_index": [
+      "1631122156115dd021",
       "1542369329707",
       "1547016715103",
       "1547016755773",
@@ -2978,12 +3033,12 @@
       "16310463455acb17b2",
       "1631118236472a9032",
       "16311208360687d92f",
+      "163112205970ca6f44",
       "1543388199595",
       "1547016927414",
       "1631045322971e7d9e",
       "16310464382182a5f3",
-      "1631046452e25628fb",
-      "163112205970ca6f44"
+      "1631046452e25628fb"
     ]
   }
 }
