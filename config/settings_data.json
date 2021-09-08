@@ -2933,9 +2933,9 @@
         "type": "home-product-grid-type-5",
         "settings": {
           "title": "Bitumen Emulsions",
-          "title_clr": "#000",
+          "title_clr": "#000000",
           "small_title": "",
-          "small_title_clr": "#000",
+          "small_title_clr": "#000000",
           "collection": "bitumen-emulsions",
           "grid": "3",
           "rows": "1"
@@ -2943,7 +2943,6 @@
       }
     },
     "content_for_index": [
-      "1631118236472a9032",
       "1542369329707",
       "1547016715103",
       "1547016755773",
@@ -2953,6 +2952,7 @@
       "163104623811b0135a",
       "1630963913f50e9c1d",
       "16310463455acb17b2",
+      "1631118236472a9032",
       "1543388199595",
       "1547016927414",
       "1631045322971e7d9e",
