@@ -1876,11 +1876,10 @@
       "blog-sidebar-instagram": {
         "type": "blog-sidebar-instagram",
         "settings": {
-          "instagram_use": true,
-          "sidebar_bg_color": "#000",
+          "instagram_use": false,
+          "sidebar_bg_color": "#000000",
           "accessToken": "3311466850.1677ed0.84b4d7bf4b6f49b4887a8fe93707d9b5",
           "heading_image_need": false,
-          "heading_image": "",
           "title": "Instagram Feed",
           "title_1_clr": "#ffffff",
           "sort": "none"
@@ -1890,12 +1889,12 @@
         "type": "blog-sidebar-deals",
         "settings": {
           "show_best_products": true,
-          "sidebar_bg_color": "#fff",
+          "sidebar_bg_color": "#ffffff",
           "title": "Best Deals",
-          "dealitems": "new-offers",
-          "dealbtn_border": "#000",
-          "dealbtn": "#000",
-          "dealbtn_text": "#000",
+          "dealitems": "best-selling-products",
+          "dealbtn_border": "#000000",
+          "dealbtn": "#000000",
+          "dealbtn_text": "#000000",
           "limit": "4"
         }
       },
@@ -1909,13 +1908,13 @@
           "show_blog_4_btn": true,
           "show_blog_4_date": true,
           "show_blog_4_tag": true,
-          "blog_design_4_title": "#222222",
-          "blog_design_4_titlehover": "#35c7df",
+          "blog_design_4_title": "#00963f",
+          "blog_design_4_titlehover": "#95c11c",
           "blog_design_4_datecolor": "#444444",
           "blog_design_4_authorcolor": "#444444",
           "blog_design_commentcolor": "#444444",
-          "blog_design_4_tag": "#35c7df",
-          "blog_design_4_taghover": "#35c7df"
+          "blog_design_4_tag": "#95c11c",
+          "blog_design_4_taghover": "#00963f"
         }
       },
       "product-template": {
