@@ -2778,7 +2778,7 @@
           "title_clr": "#000000",
           "small_title": "",
           "small_title_clr": "#000000",
-          "pick_featured_blog": "",
+          "pick_featured_blog": "news",
           "limit": "2",
           "blog_title_clr": "#000000",
           "title_hover_clr": "#000000",
