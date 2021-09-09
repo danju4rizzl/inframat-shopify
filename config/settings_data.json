@@ -199,22 +199,22 @@
     "currency_10_unit": "RUB",
     "password_bg_img": true,
     "password_logo": true,
-    "logo_txt_color": "#891616",
+    "logo_txt_color": "#ffb001",
     "pwd_header": "Opening Soon",
     "pwd_header_color": "#d97373",
     "pwd_show_share_buttons": true,
     "pwd_social_message": "Spread the word",
     "pwd_newsletter_enable": true,
-    "pwd_newsletter_form_heading": "Be the first to know when we launch.",
+    "pwd_newsletter_form_heading": "Keep up with us! Subscribe to Inframat's newsletter and receive exclusive <br>offers on the latest products. Sign up today!",
     "pwd_newsletter_form_heading_clr": "#2ccc5c",
     "pwd_newsletter_inpt_bg": "#a62323",
-    "pwd_newsletter_btn_bg": "#1ee19d",
+    "pwd_newsletter_btn_bg": "#95c11c",
     "pwd_newsletter_btn_txt": "#ffffff",
     "pwd_newsletter_btn_hoverbg": "#c25454",
     "pwd_newsletter_btn_hovertxt": "#c6cf22",
     "pwd_placeholder_txt": "#54e325",
     "pwd_newsletter_placeholder": "Email address",
-    "pwd_newsletter_button_text": "Notify me",
+    "pwd_newsletter_button_text": "Yes, Notify me",
     "social_title_clr": "#b46666",
     "social_icon_clr": "#c6cf22",
     "social__icon_hoverclr": "#dc1dd0",
@@ -2964,6 +2964,21 @@
           "collection": "g1-g7-base-materials",
           "grid": "4",
           "rows": "1"
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
         }
       }
     },
