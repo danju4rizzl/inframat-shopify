@@ -175,7 +175,7 @@
     "share_facebook": true,
     "share_twitter": true,
     "share_pinterest": true,
-    "share_google": true,
+    "share_google": false,
     "social_sharing_style": "normal",
     "collection_suggest": "",
     "display_index": true,
@@ -203,7 +203,7 @@
     "pwd_header": "Opening Soon",
     "pwd_header_color": "#d97373",
     "pwd_show_share_buttons": true,
-    "pwd_social_message": "Spread the word",
+    "pwd_social_message": "",
     "pwd_newsletter_enable": true,
     "pwd_newsletter_form_heading": "Keep up with us! Subscribe to Inframat's newsletter and receive exclusive <br>offers on the latest products. Sign up today!",
     "pwd_newsletter_form_heading_clr": "#2ccc5c",
@@ -2324,8 +2324,8 @@
           "blog_design_4_datecolor": "#444444",
           "blog_design_4_authorcolor": "#444444",
           "blog_design_commentcolor": "#444444",
-          "blog_design_4_tag": "#444444",
-          "blog_design_4_taghover": "#35c7df"
+          "blog_design_4_tag": "#00963f",
+          "blog_design_4_taghover": "#95c11c"
         }
       },
       "top-bar-type-5": {
