@@ -2112,6 +2112,7 @@
       },
       "1542369329707": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
           "1542369873506": {
             "type": "style_2",
