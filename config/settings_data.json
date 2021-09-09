@@ -2141,6 +2141,7 @@
           },
           "1543466912403": {
             "type": "style_1",
+            "disabled": true,
             "settings": {
               "mobile_bg_clr_use": true,
               "mobile_bg_clr": "#ffffff",
@@ -2164,6 +2165,7 @@
           },
           "1543466931051": {
             "type": "style_2",
+            "disabled": true,
             "settings": {
               "mobile_bg_clr_use": true,
               "mobile_bg_clr": "#ffffff",
