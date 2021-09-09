@@ -2115,9 +2115,10 @@
         "blocks": {
           "1542369873506": {
             "type": "style_2",
+            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/Hero_section_2.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/168_2_e80135c4-65aa-4e34-8ee3-3f8966aa71b9.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/168.jpg",
               "mobile_bg_clr_use": true,
               "mobile_bg_clr": "#00963f",
               "subheading_bg_use": false,
@@ -2142,6 +2143,7 @@
           "1543466912403": {
             "type": "style_1",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Hero_section_bfe08049-4877-4e34-8865-c852576c9032.jpg",
               "mobile_bg_clr_use": true,
               "mobile_bg_clr": "#ffffff",
               "subheading_bg_use": false,
@@ -2194,7 +2196,7 @@
         ],
         "settings": {
           "slideshow_speed": "5000",
-          "slideshow_transition": "true",
+          "slideshow_transition": "false",
           "navigation_color": "#ffffff"
         }
       },
