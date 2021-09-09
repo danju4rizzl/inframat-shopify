@@ -241,7 +241,7 @@
         "settings": {
           "enable_sidecategory": true,
           "linkedlist": "primary-menu",
-          "linkedlist_title": "View Category"
+          "linkedlist_title": "All Categories"
         }
       },
       "sidebar-bestsellers": {
