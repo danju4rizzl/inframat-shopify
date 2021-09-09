@@ -2117,6 +2117,8 @@
           "1542369873506": {
             "type": "style_2",
             "settings": {
+              "image": "shopify:\/\/shop_images\/Bodpave_banner_image_1.png",
+              "mobile_image": "shopify:\/\/shop_images\/Bodpave_banner_image_1.png",
               "mobile_bg_clr_use": true,
               "mobile_bg_clr": "#ffffff",
               "subheading_bg_use": false,
