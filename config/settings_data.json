@@ -142,7 +142,7 @@
     "contact_module_address1": "<b>DURBAN<\/b> <br> 504 Lillian Ngoyi Road, Morningside, Durban\nKwaZulu Natal.",
     "contact_module_address2": "<b>CAPE TOWN<\/b> <br>\nBirkdale 1, River Park 2 Gloucester Road, Mowbray, Cape Town\n<br>\n<b> JOHANNESBURG\/PRETORIA<\/b> <br>\nUnit G3 , 1024 Brand Road President Park Midrand, Johannesburg",
     "display_popup_newsletter": true,
-    "pop_up_newsletter_img_show": false,
+    "pop_up_newsletter_img_show": true,
     "popup_newsletter_bg": "#ffffff",
     "popup_newsletter_title": "Get to know the latest offers",
     "popup_newsletter_message": "Subscribe and get notified at first on the latest update and offers!",
@@ -2197,8 +2197,8 @@
           "1543466931051"
         ],
         "settings": {
-          "slideshow_speed": "5000",
-          "slideshow_transition": "false",
+          "slideshow_speed": "4000",
+          "slideshow_transition": "true",
           "navigation_color": "#ffffff"
         }
       },
