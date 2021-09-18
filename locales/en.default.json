@@ -147,6 +147,7 @@
       "name": "Name",
       "email": "Email",
       "phone": "Phone",
+      "address": "Delivery Address",
       "sub": "Subject",
       "message": "Message",
       "send": "Send",
