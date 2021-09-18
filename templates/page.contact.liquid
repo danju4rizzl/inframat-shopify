@@ -71,6 +71,7 @@
         <textarea rows="7" id="ContactFormMessage" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
         <button type="submit" class="btn">{{ 'contact.form.send' | t }}</button>
+       	<button type="submit" class="btn btn-danger">Don't send</button>
 
         {% endform %}
       </div>
