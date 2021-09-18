@@ -146,6 +146,7 @@
     "form": {
       "name": "Name",
       "email": "Email",
+      "phone": "Phone",
       "sub": "Subject",
       "message": "Message",
       "send": "Send",
@@ -424,8 +425,4 @@
       "password_link": "Enter using password"
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 589936a3265c061a139d74609fe5affa8496791a
