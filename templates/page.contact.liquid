@@ -93,6 +93,18 @@
             value="{% if form.address1 %}{{ form.address1 }}{% endif %}"
           />
         
+        
+        
+		  <label for="ContactFormAmount" class="label--hidden">{{ 'contact.form.amount' | t }}</label>
+          <input
+            type="number"
+            id="ContactFormAmount"
+            name="contact[amount]"
+            placeholder="{{ 'contact.form.amount' | t }} *"
+
+          />
+
+        
         <!-- Custom code ends here-->
         
   		{% assign name_attr = 'contact.form.sub' | t | handle %}
