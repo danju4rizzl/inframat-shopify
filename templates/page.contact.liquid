@@ -78,8 +78,21 @@
             autocapitalize="off"
             value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
             required="required"
-          />       
+          />    
         
+        
+        
+          <label for="ContactFormAddress" class="label--hidden">{{ 'contact.form.address' | t }}</label>
+          <input
+            type="tel"
+            id="ContactFormAddress"
+            name="contact[address1]"
+            placeholder="{{ 'contact.form.address1' | t }} *"
+            autocorrect="off"
+            autocapitalize="off"
+            value="{% if form.address1 %}{{ form.address1 }}{% elsif customer %}{{ customer.address1 }}{% endif %}"
+            required="required"
+          />
         
         <!-- Custom code ends here-->
         
