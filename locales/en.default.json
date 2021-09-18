@@ -151,7 +151,7 @@
       "amount": "Quantity Required",
       "sub": "Subject",
       "message": "Message",
-      "send": "Send",
+      "send": "Send Message",
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
       "social_icons_title": "Follow Us"
     }
