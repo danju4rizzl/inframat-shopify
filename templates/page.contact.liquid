@@ -84,14 +84,13 @@
         
           <label for="ContactFormAddress" class="label--hidden">{{ 'contact.form.address' | t }}</label>
           <input
-            type="tel"
+            type="text"
             id="ContactFormAddress"
             name="contact[address1]"
             placeholder="{{ 'contact.form.address' | t }} *"
             autocorrect="off"
-            autocapitalize="off"
+            autocapitalize="words"
             value="{% if form.address1 %}{{ form.address1 }}{% endif %}"
-       
           />
         
         <!-- Custom code ends here-->
