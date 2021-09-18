@@ -87,7 +87,7 @@
             type="tel"
             id="ContactFormAddress"
             name="contact[address1]"
-            placeholder="{{ 'contact.form.address1' | t }} *"
+            placeholder="{{ 'contact.form.address' | t }} *"
             autocorrect="off"
             autocapitalize="off"
             value="{% if form.address1 %}{{ form.address1 }}{% elsif customer %}{{ customer_address.address1 }}{% endif %}"
