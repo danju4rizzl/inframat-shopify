@@ -74,10 +74,7 @@
             id="ContactFormPhone"
             name="contact[phone]"
             placeholder="{{ 'contact.form.phone' | t }} *"
-            autocorrect="off"
-            autocapitalize="off"
-            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-            required="required"
+            required
           />    
         
         
@@ -86,12 +83,8 @@
           <input
             type="text"
             id="ContactFormAddress"
-            name="contact[address1]"
-            placeholder="{{ 'contact.form.address' | t }} "
-            autocorrect="off"
-            autocapitalize="words"
-            value="{% if form.address1 %}{{ form.address1 }}{% endif %}"
-			
+            name="contact[address]"
+            placeholder="{{ 'contact.form.address' | t }} "			
           />
         
         
@@ -105,12 +98,13 @@
           />
 
         
+        <label for="ContactFormSubject" class="label--hidden">{{ 'contact.form.subject' | t }}</label>
+        <input type="text" id="ContactFormSubject" name="contact[subject]" placeholder="{{ 'contact.form.subject' | t }}">
+
+        
         <!-- Custom code ends here-->
         
   		{% assign name_attr = 'contact.form.sub' | t | handle %}
-        <label for="ContactFormSub" class="label--hidden">{{ 'contact.form.sub' | t }}</label>
-        <input type="text" id="ContactFormSub" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.sub' | t }}" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.subject }}{% endif %}">
-
         <label for="ContactFormMessage" class="label--hidden">{{ 'contact.form.message' | t }}</label>
         <textarea rows="7" id="ContactFormMessage" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
 
