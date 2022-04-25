@@ -99,9 +99,15 @@
           />
 
         
-        <label for="ContactFormSubject" class="label--hidden">{{ 'contact.form.subject' | t }}</label>
-        <input type="text" id="ContactFormSubject" name="contact[subject]" placeholder="{{ 'contact.form.subject' | t }} *" required>
-
+    		 <label for="contactFormSubject">Message Subject</label>
+                  <p>
+                    <select name="contact[subject]" id="contactFormSubject" >
+                    <option>Product Inquiry</option>
+                    <option>Order Delivery </option>
+                    <option>Order Payment/Refund</option>
+                    <option> Other</option>
+                  </select>
+                </p>
         
         <!-- Custom code ends here-->
         
