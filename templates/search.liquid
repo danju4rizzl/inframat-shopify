@@ -41,7 +41,7 @@
     {% for item in search.results %}
    
     {% if item.object_type == 'product' %} 
-    {% include 'search-result','search_item_width' %}   
+    {% include 'search-result' %}   
     {% else %}
       
       
@@ -82,3 +82,13 @@
 {% layout none %}
 {% endunless %}
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% include 'search-result','search_item_width' %}"
+  to: "{% include 'search-result' %}"
+  position: 2124..2153
+{% endcomment %}
